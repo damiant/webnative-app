@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.22
+
+- Add @capacitor/inappbrowser to the list of plugins
+- Update dependencies and update to Angular 18
+
 ## 1.21
 
 - Update dependencies. Support for targeting Android 13
