@@ -38,7 +38,6 @@ dependencies {
     implementation project(':capacitor-toast')
     implementation project(':capawesome-capacitor-file-picker')
     implementation project(':ionic-enterprise-auth')
-    implementation project(':sentry-capacitor')
     implementation "net.zetetic:android-database-sqlcipher:4.5.2"
     implementation "androidx.sqlite:sqlite:2.0.1"
     implementation "androidx.webkit:webkit:1.4.0"

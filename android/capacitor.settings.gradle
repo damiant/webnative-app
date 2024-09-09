@@ -88,6 +88,3 @@ project(':capawesome-capacitor-file-picker').projectDir = new File('../node_modu
 
 include ':ionic-enterprise-auth'
 project(':ionic-enterprise-auth').projectDir = new File('../node_modules/@ionic-enterprise/auth/android')
-
-include ':sentry-capacitor'
-project(':sentry-capacitor').projectDir = new File('../node_modules/@sentry/capacitor/android')
