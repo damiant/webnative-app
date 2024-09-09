@@ -63,7 +63,7 @@
     "@capacitor/text-zoom": "6.0.2",
     "@capacitor/toast": "6.0.2",
     "@capawesome/capacitor-file-picker": "6.0.1",
-    "@ionic-enterprise/auth": "^6.0.2-dev-20240909T113904.0",
+    "@ionic-enterprise/auth": "^6.0.2-dev-20240909T130951.0",
     "@ionic-enterprise/identity-vault": "5.14.3",
     "@ionic-enterprise/secure-storage": "3.0.3",
     "@ionic/angular": "7.8.0",

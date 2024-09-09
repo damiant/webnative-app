@@ -63,7 +63,7 @@ PODS:
   - CordovaPlugins (6.1.2):
     - CapacitorCordova
     - SQLCipher (~> 4.0)
-  - IonicEnterpriseAuth (6.0.2-dev-20240909T113904.0):
+  - IonicEnterpriseAuth (6.0.2-dev-20240909T130951.0):
     - Capacitor
   - OSBarcodeLib (1.1.0)
   - OSInAppBrowserLib (1.0.0)
@@ -211,7 +211,7 @@ SPEC CHECKSUMS:
   CapacitorToast: cfd82cd5afdc3f027ad4a8859f909ae4a327f3c3
   CapawesomeCapacitorFilePicker: c80c30759ba48986ff34a2b51b23ac2babfd3774
   CordovaPlugins: dfe18224604af1092c07bb391f556f458db1b73e
-  IonicEnterpriseAuth: 94e8a73607e5da0c33d463caf4ca5830f6b0baf8
+  IonicEnterpriseAuth: 0161808584af0353298d29d853633c4b9f6a6eb5
   OSBarcodeLib: ced133bc1ec073636e18c6a0553d0a5c4b90cf17
   OSInAppBrowserLib: c3d0b21a0c8b6d81e69117ad08bb6b8a4849c4e1
   SQLCipher: 57fa9f863fa4a3ed9dd3c90ace52315db8c0fdca
