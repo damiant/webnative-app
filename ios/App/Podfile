@@ -42,6 +42,7 @@ def capacitor_pods
   pod 'IonicEnterpriseAuth', :path => '../../node_modules/@ionic-enterprise/auth'
   pod 'SentryCapacitor', :path => '../../node_modules/@sentry/capacitor'
   pod 'CordovaPlugins', :path => '../capacitor-cordova-ios-plugins'
+  pod 'CordovaPluginsResources', :path => '../capacitor-cordova-ios-plugins'
 end
 
 target 'App' do

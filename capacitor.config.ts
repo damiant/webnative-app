@@ -16,7 +16,7 @@ const config: CapacitorConfig = {
     allowMixedContent: true,
     backgroundColor: '#333333',
     buildOptions: {
-      keystorePath: '/Volumes/CodeDrive/Code/nexus-browser-1/keys/AndroidKeys',
+      keystorePath: './keys/AndroidKeys',
       keystoreAlias: 'key0',
     },
   },
