@@ -6,7 +6,7 @@
     },
     {
       "name": "@capacitor-community/bluetooth-le",
-      "version": "6.0.0"
+      "version": "6.1.0"
     },
     {
       "name": "@capacitor-community/camera-preview",
@@ -18,11 +18,11 @@
     },
     {
       "name": "@capacitor/action-sheet",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capacitor/app",
-      "version": "6.0.1"
+      "version": "6.0.2"
     },
     {
       "name": "@capacitor/barcode-scanner",
@@ -30,47 +30,47 @@
     },
     {
       "name": "@capacitor/browser",
-      "version": "6.0.2"
+      "version": "6.0.4"
     },
     {
       "name": "@capacitor/camera",
-      "version": "6.0.2"
+      "version": "6.1.1"
     },
     {
       "name": "@capacitor/clipboard",
-      "version": "6.0.1"
-    },
-    {
-      "name": "@capacitor/device",
-      "version": "6.0.1"
-    },
-    {
-      "name": "@capacitor/dialog",
-      "version": "6.0.1"
-    },
-    {
-      "name": "@capacitor/filesystem",
-      "version": "6.0.1"
-    },
-    {
-      "name": "@capacitor/geolocation",
-      "version": "6.0.1"
-    },
-    {
-      "name": "@capacitor/haptics",
-      "version": "6.0.1"
-    },
-    {
-      "name": "@capacitor/inappbrowser",
-      "version": "1.0.1"
-    },
-    {
-      "name": "@capacitor/keyboard",
       "version": "6.0.2"
     },
     {
+      "name": "@capacitor/device",
+      "version": "6.0.2"
+    },
+    {
+      "name": "@capacitor/dialog",
+      "version": "6.0.2"
+    },
+    {
+      "name": "@capacitor/filesystem",
+      "version": "6.0.2"
+    },
+    {
+      "name": "@capacitor/geolocation",
+      "version": "6.0.2"
+    },
+    {
+      "name": "@capacitor/haptics",
+      "version": "6.0.2"
+    },
+    {
+      "name": "@capacitor/inappbrowser",
+      "version": "1.0.2"
+    },
+    {
+      "name": "@capacitor/keyboard",
+      "version": "6.0.3"
+    },
+    {
       "name": "@capacitor/local-notifications",
-      "version": "6.1.0"
+      "version": "6.1.1"
     },
     {
       "name": "@capacitor/motion",
@@ -78,39 +78,39 @@
     },
     {
       "name": "@capacitor/network",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capacitor/preferences",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capacitor/screen-orientation",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capacitor/screen-reader",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capacitor/share",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capacitor/splash-screen",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capacitor/status-bar",
-      "version": "6.0.1"
+      "version": "6.0.2"
     },
     {
       "name": "@capacitor/text-zoom",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capacitor/toast",
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     {
       "name": "@capawesome/capacitor-file-picker",
@@ -118,11 +118,11 @@
     },
     {
       "name": "@ionic-enterprise/auth",
-      "version": "6.0.1"
+      "version": "6.0.3"
     },
     {
       "name": "@ionic-enterprise/identity-vault",
-      "version": "5.14.3"
+      "version": "5.14.5"
     },
     {
       "name": "@ionic-enterprise/secure-storage",
@@ -130,7 +130,7 @@
     },
     {
       "name": "@sentry/capacitor",
-      "version": "0.18.0"
+      "version": "1.0.2"
     },
     {
       "name": "cordova-plugin-advanced-http",
@@ -142,7 +142,7 @@
     },
     {
       "name": "cordova-plugin-file",
-      "version": "8.0.0"
+      "version": "8.1.3"
     },
     {
       "name": "cordova-plugin-inappbrowser",
