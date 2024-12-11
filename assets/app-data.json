@@ -26,7 +26,7 @@
     },
     {
       "name": "@capacitor/barcode-scanner",
-      "version": "1.0.1"
+      "version": "1.0.4"
     },
     {
       "name": "@capacitor/browser",
@@ -54,7 +54,7 @@
     },
     {
       "name": "@capacitor/geolocation",
-      "version": "6.0.2"
+      "version": "6.1.0"
     },
     {
       "name": "@capacitor/haptics",
@@ -114,7 +114,7 @@
     },
     {
       "name": "@capawesome/capacitor-file-picker",
-      "version": "6.0.1"
+      "version": "6.2.0"
     },
     {
       "name": "@ionic-enterprise/auth",
