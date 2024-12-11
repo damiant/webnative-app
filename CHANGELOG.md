@@ -1,4 +1,7 @@
 # Changelog
+## 1.26
+
+- Fix bug with crash on Android due to Barcode Scanner plugin
 
 ## 1.22
 
