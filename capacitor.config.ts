@@ -9,7 +9,7 @@ const config: CapacitorConfig = {
   server: {
     allowNavigation: ['*'],
     cleartext: true,
-    errorPath: 'error.html',
+    errorPath: 'error.html'    
   },
   loggingBehavior: 'production',
   android: {
