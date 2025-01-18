@@ -33,6 +33,9 @@ PODS:
     - Capacitor
   - CapacitorHaptics (6.0.2):
     - Capacitor
+  - CapacitorInappbrowser (1.0.3):
+    - Capacitor
+    - OSInAppBrowserLib (~> 1.0)
   - CapacitorKeyboard (6.0.3):
     - Capacitor
   - CapacitorLocalNotifications (6.1.2):
@@ -64,6 +67,7 @@ PODS:
   - IonicEnterpriseAuth (6.0.5):
     - Capacitor
   - OSBarcodeLib (1.1.3)
+  - OSInAppBrowserLib (1.0.0)
   - Sentry/HybridSDK (8.36.0)
   - SentryCapacitor (1.1.0):
     - Capacitor
@@ -92,6 +96,7 @@ DEPENDENCIES:
   - "CapacitorFilesystem (from `../../node_modules/@capacitor/filesystem`)"
   - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorInappbrowser (from `../../node_modules/@capacitor/inappbrowser`)"
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
   - "CapacitorLocalNotifications (from `../../node_modules/@capacitor/local-notifications`)"
   - "CapacitorNetwork (from `../../node_modules/@capacitor/network`)"
@@ -112,6 +117,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - OSBarcodeLib
+    - OSInAppBrowserLib
     - Sentry
     - SQLCipher
 
@@ -150,6 +156,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/geolocation"
   CapacitorHaptics:
     :path: "../../node_modules/@capacitor/haptics"
+  CapacitorInappbrowser:
+    :path: "../../node_modules/@capacitor/inappbrowser"
   CapacitorKeyboard:
     :path: "../../node_modules/@capacitor/keyboard"
   CapacitorLocalNotifications:
@@ -201,6 +209,7 @@ SPEC CHECKSUMS:
   CapacitorFilesystem: fa3099b3c3aa43a1b51362d0c999301ab1a9a752
   CapacitorGeolocation: d994ee64ee41909e2089e575c9d3a976007c2812
   CapacitorHaptics: b53409aaca1203f79c6d0eb3ed5de40556339518
+  CapacitorInappbrowser: 8d2cc19c882a8176f489d5a31a690a0b418a12ea
   CapacitorKeyboard: 460c6f9ec5e52c84f2742d5ce2e67bbc7ab0ebb0
   CapacitorLocalNotifications: 99b06c7b2a7e03d43efc6fdb5c4f75ce92880108
   CapacitorNetwork: da96b5fff8d05b67f4658503aabb22f65bda2c0f
@@ -217,10 +226,11 @@ SPEC CHECKSUMS:
   CordovaPluginsResources: 0c211f770ed91763a179ebcd9b9346e120b70662
   IonicEnterpriseAuth: 794a98d792f7dbb6af4427576b88bc773d0c3b77
   OSBarcodeLib: f2e981270a64faf476cb790864262b29ab8cd68a
+  OSInAppBrowserLib: c3d0b21a0c8b6d81e69117ad08bb6b8a4849c4e1
   Sentry: f8374b5415bc38dfb5645941b3ae31230fbeae57
   SentryCapacitor: 9955a523b8cf0bae16f257069e5838a0b1085d5a
   SQLCipher: 77fbe633cd84db04b07876dd50766b4924b57d61
 
-PODFILE CHECKSUM: 4312c24fa1a442dd5c86e52b9bff7e64a0706397
+PODFILE CHECKSUM: f739165ba137abb8e7d2d49227b5fd674283ed5b
 
 COCOAPODS: 1.16.2
