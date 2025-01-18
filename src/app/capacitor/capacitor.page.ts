@@ -8,11 +8,10 @@ import { logoAppleAppstore, logoGooglePlaystore } from 'ionicons/icons';
 import { IonContent, IonButton, IonIcon } from '@ionic/angular/standalone';
 
 @Component({
-  standalone: true,
-  imports: [CommonModule, FormsModule, QRCodeModule, IonContent, IonButton, IonIcon],
-  selector: 'app-link',
-  templateUrl: './capacitor.page.html',
-  styleUrls: ['./capacitor.page.scss'],
+    imports: [CommonModule, FormsModule, QRCodeModule, IonContent, IonButton, IonIcon],
+    selector: 'app-link',
+    templateUrl: './capacitor.page.html',
+    styleUrls: ['./capacitor.page.scss']
 })
 export class CapacitorPage implements OnInit {
   opening: boolean = false;

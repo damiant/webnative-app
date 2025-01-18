@@ -2,11 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
-  standalone: true,
-  imports: [CommonModule],
-  selector: 'app-slides',
-  templateUrl: './slides.component.html',
-  styleUrls: ['./slides.component.scss'],
+    imports: [CommonModule],
+    selector: 'app-slides',
+    templateUrl: './slides.component.html',
+    styleUrls: ['./slides.component.scss']
 })
 export class SlidesComponent {
   currentIndex: number = 0;

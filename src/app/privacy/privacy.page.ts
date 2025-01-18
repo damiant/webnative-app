@@ -8,21 +8,20 @@ import { closeOutline } from 'ionicons/icons';
 import { IonRouterLink, IonContent, IonFab, IonFabButton, IonIcon } from '@ionic/angular/standalone';
 
 @Component({
-  standalone: true,
-  imports: [
-    CommonModule,
-    FormsModule,
-    RouterModule,
-    RouterLink,
-    IonRouterLink,
-    IonContent,
-    IonFab,
-    IonFabButton,
-    IonIcon,
-  ],
-  selector: 'app-privacy',
-  templateUrl: './privacy.page.html',
-  styleUrls: ['./privacy.page.scss'],
+    imports: [
+        CommonModule,
+        FormsModule,
+        RouterModule,
+        RouterLink,
+        IonRouterLink,
+        IonContent,
+        IonFab,
+        IonFabButton,
+        IonIcon,
+    ],
+    selector: 'app-privacy',
+    templateUrl: './privacy.page.html',
+    styleUrls: ['./privacy.page.scss']
 })
 export class PrivacyPage {
   isNative: boolean = Capacitor.isNativePlatform();
