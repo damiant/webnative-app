@@ -41,10 +41,8 @@ interface HomeModel {
 }
 
 @Component({
-    imports: [
-        SlidesComponent,
+    imports: [       
         ShortcutComponent,
-        SlideComponent,
         CommonModule,
         FormsModule,
         IonContent,
@@ -57,10 +55,6 @@ interface HomeModel {
         IonFabButton,
         IonIcon,
         IonSpinner,
-        RouterLink,
-        IonRouterLink,
-        IonActionSheet,
-        IonModal,
     ],
     selector: 'app-home',
     templateUrl: 'home.page.html',

@@ -14,7 +14,7 @@ import { Device } from '@capacitor/device';
 export class UrlService {
   private slug: string | undefined;
 
-  constructor(private historyService: HistoryService) {}
+  constructor(private historyService: HistoryService) { }
 
   public async visit(url: string, save: boolean): Promise<string | undefined> {
     if (Capacitor.isNativePlatform()) {
@@ -81,12 +81,16 @@ export class UrlService {
     const domain = this.getDomain(url);
     if (!domain) return; // This ensure we only get through if we're using an address and port
 
-    const info = await Device.getInfo();
+    try {
+      const info = await Device.getInfo();
 
-    // This triggers remote logging to use this url
-    console.log(`[#RemoteLoggingURL=http://${domain}:8942]`);
+      // This triggers remote logging to use this url
+      console.log(`[#RemoteLoggingURL=http://${domain}:8942]`);
 
-    console.log(`Connected from ${info.manufacturer} ${info.name} version ${info.osVersion}`);
+      console.log(`Connected from ${info.manufacturer} ${info.name} version ${info.osVersion}`);
+    } catch (err) {
+      console.error('setRemoteURL', err);
+    }
   }
 
   private getDomain(url: string): string | undefined {
