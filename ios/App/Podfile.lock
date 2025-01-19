@@ -8,9 +8,9 @@ PODS:
   - CapacitorBarcodeScanner (1.0.4):
     - Capacitor
     - OSBarcodeLib (~> 1.1.0)
-  - CapacitorBrowser (6.0.4):
+  - CapacitorBrowser (6.0.5):
     - Capacitor
-  - CapacitorCamera (6.1.1):
+  - CapacitorCamera (6.1.2):
     - Capacitor
   - CapacitorClipboard (6.0.2):
     - Capacitor
@@ -18,7 +18,7 @@ PODS:
     - Capacitor
   - CapacitorCommunityBluetoothLe (6.1.0):
     - Capacitor
-  - CapacitorCommunityCameraPreview (6.0.0):
+  - CapacitorCommunityCameraPreview (6.0.1):
     - Capacitor
   - CapacitorCommunityKeepAwake (5.0.1):
     - Capacitor
@@ -27,18 +27,18 @@ PODS:
     - Capacitor
   - CapacitorDialog (6.0.2):
     - Capacitor
-  - CapacitorFilesystem (6.0.2):
+  - CapacitorFilesystem (6.0.3):
     - Capacitor
   - CapacitorGeolocation (6.1.0):
     - Capacitor
   - CapacitorHaptics (6.0.2):
     - Capacitor
-  - CapacitorInappbrowser (1.0.2):
+  - CapacitorInappbrowser (1.0.3):
     - Capacitor
     - OSInAppBrowserLib (~> 1.0)
   - CapacitorKeyboard (6.0.3):
     - Capacitor
-  - CapacitorLocalNotifications (6.1.1):
+  - CapacitorLocalNotifications (6.1.2):
     - Capacitor
   - CapacitorNetwork (6.0.3):
     - Capacitor
@@ -64,12 +64,12 @@ PODS:
     - CapacitorCordova
     - SQLCipher (~> 4.0)
   - CordovaPluginsResources (0.0.105)
-  - IonicEnterpriseAuth (6.0.3):
+  - IonicEnterpriseAuth (6.0.5):
     - Capacitor
   - OSBarcodeLib (1.1.3)
   - OSInAppBrowserLib (1.0.0)
   - Sentry/HybridSDK (8.36.0)
-  - SentryCapacitor (1.0.2):
+  - SentryCapacitor (1.1.0):
     - Capacitor
     - Sentry/HybridSDK (= 8.36.0)
   - SQLCipher (4.6.1):
@@ -196,22 +196,22 @@ SPEC CHECKSUMS:
   CapacitorActionSheet: 653276dc474be8914db13293a987915f16148d00
   CapacitorApp: 2a8c3a0b0814322e5e6e15fe595f02c3808f0f8b
   CapacitorBarcodeScanner: 869a8f023e90b7cc92c18919732e3d935b2c0792
-  CapacitorBrowser: ef0529d16cd8839281050c350e7bbee4f5c6d65f
-  CapacitorCamera: b9904b48258a91a48930e72a400638a5fc223b27
+  CapacitorBrowser: cba79e25007fbe9bdac8c0568060b21abbb8f453
+  CapacitorCamera: 9052bd3f464f135ba983feccd8ac1266272f0549
   CapacitorClipboard: 55e0a514f1e97b1409d533266c119dcbff3e78c3
   CapacitorCommunityAppleSignIn: c8bba4ca8ff6ff843367ece13ee8af24e9266eb9
   CapacitorCommunityBluetoothLe: d6fc1f6f8d6f0ef722c0817a7533ce35d42dc4f9
-  CapacitorCommunityCameraPreview: 9319cde1da660b7643833dac20aaa85135bd1441
+  CapacitorCommunityCameraPreview: 3b37673576ad824c282429a0bd093b45d0215921
   CapacitorCommunityKeepAwake: e2ddd50812e3407f8dc3a2c28e97d66e9b59b2f5
   CapacitorCordova: b33e7f4aa4ed105dd43283acdd940964374a87d9
   CapacitorDevice: 1a215717f0b5061503b21a03508b0ec458a57d78
   CapacitorDialog: e966e2261e1c74a8a502e610dd66b4f97ec6fcca
-  CapacitorFilesystem: c832a3f6d4870c3872688e782ae8e33665e6ecbf
+  CapacitorFilesystem: fa3099b3c3aa43a1b51362d0c999301ab1a9a752
   CapacitorGeolocation: d994ee64ee41909e2089e575c9d3a976007c2812
   CapacitorHaptics: b53409aaca1203f79c6d0eb3ed5de40556339518
-  CapacitorInappbrowser: e857fa56877a9b4cfe27f5b36a39940ad7e7807a
+  CapacitorInappbrowser: 8d2cc19c882a8176f489d5a31a690a0b418a12ea
   CapacitorKeyboard: 460c6f9ec5e52c84f2742d5ce2e67bbc7ab0ebb0
-  CapacitorLocalNotifications: 113dcab0b40781e8463bfdbbd6b54c6116361644
+  CapacitorLocalNotifications: 99b06c7b2a7e03d43efc6fdb5c4f75ce92880108
   CapacitorNetwork: da96b5fff8d05b67f4658503aabb22f65bda2c0f
   CapacitorPreferences: 9f9935bce493977183511362131a93f7b260191a
   CapacitorScreenOrientation: 3bb823f5d265190301cdc5d58a568a287d98972a
@@ -224,11 +224,11 @@ SPEC CHECKSUMS:
   CapawesomeCapacitorFilePicker: c14df1f5a23226039e0cb82b171cf5a351470459
   CordovaPlugins: ba295d5b5bbff6db1d8e801ccb228b1935570f98
   CordovaPluginsResources: 0c211f770ed91763a179ebcd9b9346e120b70662
-  IonicEnterpriseAuth: 3f83c0f346b366228a1e84f61cc41f5ba7a583b7
+  IonicEnterpriseAuth: 794a98d792f7dbb6af4427576b88bc773d0c3b77
   OSBarcodeLib: f2e981270a64faf476cb790864262b29ab8cd68a
   OSInAppBrowserLib: c3d0b21a0c8b6d81e69117ad08bb6b8a4849c4e1
   Sentry: f8374b5415bc38dfb5645941b3ae31230fbeae57
-  SentryCapacitor: 808a63a267d5053af12c25e6125c13f79b32debc
+  SentryCapacitor: 9955a523b8cf0bae16f257069e5838a0b1085d5a
   SQLCipher: 77fbe633cd84db04b07876dd50766b4924b57d61
 
 PODFILE CHECKSUM: f739165ba137abb8e7d2d49227b5fd674283ed5b

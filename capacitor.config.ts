@@ -6,10 +6,10 @@ const config: CapacitorConfig = {
   appName: 'capview',
   webDir: 'www',
   backgroundColor: '#333333',
-  server: {
+  server: {    
     allowNavigation: ['*'],
     cleartext: true,
-    errorPath: 'error.html',
+    errorPath: 'error.html'
   },
   loggingBehavior: 'production',
   android: {

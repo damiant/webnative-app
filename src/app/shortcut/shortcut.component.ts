@@ -12,11 +12,10 @@ export enum ShortcutAction {
 }
 
 @Component({
-  standalone: true,
-  imports: [CommonModule, IonIcon, IonLabel],
-  selector: 'app-shortcut',
-  templateUrl: './shortcut.component.html',
-  styleUrls: ['./shortcut.component.scss'],
+    imports: [CommonModule, IonIcon, IonLabel],
+    selector: 'app-shortcut',
+    templateUrl: './shortcut.component.html',
+    styleUrls: ['./shortcut.component.scss']
 })
 export class ShortcutComponent {
   @Input() service: Service = { address: 'localhost', name: 'domain', secure: false };

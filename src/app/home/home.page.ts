@@ -41,31 +41,24 @@ interface HomeModel {
 }
 
 @Component({
-  standalone: true,
-  imports: [
-    SlidesComponent,
-    ShortcutComponent,
-    SlideComponent,
-    CommonModule,
-    FormsModule,
-    IonContent,
-    IonFab,
-    IonFabButton,
-    IonIcon,
-    IonSpinner,
-    IonContent,
-    IonFab,
-    IonFabButton,
-    IonIcon,
-    IonSpinner,
-    RouterLink,
-    IonRouterLink,
-    IonActionSheet,
-    IonModal,
-  ],
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+    imports: [       
+        ShortcutComponent,
+        CommonModule,
+        FormsModule,
+        IonContent,
+        IonFab,
+        IonFabButton,
+        IonIcon,
+        IonSpinner,
+        IonContent,
+        IonFab,
+        IonFabButton,
+        IonIcon,
+        IonSpinner,
+    ],
+    selector: 'app-home',
+    templateUrl: 'home.page.html',
+    styleUrls: ['home.page.scss']
 })
 export class HomePage implements OnInit {
   public vm: HomeModel = {

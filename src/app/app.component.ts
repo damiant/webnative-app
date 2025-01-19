@@ -7,11 +7,10 @@ import { ellipsisHorizontal, qrCodeSharp, closeOutline, documentTextOutline } fr
 import { defineCustomElement } from '@ionic/core/components/ion-modal.js';
 
 @Component({
-  standalone: true,
-  imports: [IonApp, IonRouterOutlet, IonActionSheet],
-  selector: 'app-root',
-  templateUrl: 'app.component.html',
-  styleUrls: ['app.component.scss'],
+    imports: [IonApp, IonRouterOutlet],
+    selector: 'app-root',
+    templateUrl: 'app.component.html',
+    styleUrls: ['app.component.scss']
 })
 export class AppComponent {
   constructor(private urlService: UrlService) {
