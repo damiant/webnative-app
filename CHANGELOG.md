@@ -1,4 +1,9 @@
 # Changelog
+## 1.30
+
+- Support for Capacitor 7
+- Rebranding to WebNative
+
 ## 1.27
 
 - Fix Android plugin loading

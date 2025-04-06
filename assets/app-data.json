@@ -2,135 +2,127 @@
   "plugins": [
     {
       "name": "@capacitor-community/apple-sign-in",
-      "version": "6.0.0"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor-community/bluetooth-le",
-      "version": "6.1.0"
+      "version": "7.0.0"
     },
     {
       "name": "@capacitor-community/camera-preview",
-      "version": "6.0.0"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor-community/keep-awake",
-      "version": "5.0.1"
+      "version": "7.0.0"
     },
     {
       "name": "@capacitor/action-sheet",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/app",
-      "version": "6.0.2"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/barcode-scanner",
-      "version": "1.0.4"
+      "version": "2.0.3"
     },
     {
       "name": "@capacitor/browser",
-      "version": "6.0.4"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/camera",
-      "version": "6.1.1"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/clipboard",
-      "version": "6.0.2"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/device",
-      "version": "6.0.2"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/dialog",
-      "version": "6.0.2"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/filesystem",
-      "version": "6.0.2"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/geolocation",
-      "version": "6.1.0"
+      "version": "7.1.1"
     },
     {
       "name": "@capacitor/haptics",
-      "version": "6.0.2"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/inappbrowser",
-      "version": "1.0.2"
+      "version": "2.0.1"
     },
     {
       "name": "@capacitor/keyboard",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/local-notifications",
-      "version": "6.1.1"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/motion",
-      "version": "6.0.1"
+      "version": "7.0.0"
     },
     {
       "name": "@capacitor/network",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/preferences",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/screen-orientation",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/screen-reader",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/share",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/splash-screen",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/status-bar",
-      "version": "6.0.2"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/text-zoom",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capacitor/toast",
-      "version": "6.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@capawesome/capacitor-file-picker",
-      "version": "6.2.0"
-    },
-    {
-      "name": "@ionic-enterprise/auth",
-      "version": "6.0.3"
-    },
-    {
-      "name": "@ionic-enterprise/identity-vault",
-      "version": "5.14.5"
-    },
-    {
-      "name": "@ionic-enterprise/secure-storage",
-      "version": "3.0.3"
+      "version": "7.0.1"
     },
     {
       "name": "@sentry/capacitor",
-      "version": "1.0.2"
+      "version": "1.3.0"
+    },
+    {
+      "name": "@webnativellc/cordova-plugin-ionic-discover",
+      "version": "1.0.5"
     },
     {
       "name": "cordova-plugin-advanced-http",
