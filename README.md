@@ -3,12 +3,12 @@
 This Capacitor application is used to view websites.
 
 ## Getting Started
-- `npm install`
+- `bun install`
 
 Run all your standard Capacitor CLI commands to build and run on iOS and Android.
 
 ## Deploy
-- `netlify deploy --prod`
+- This project is deployed to [https://webnative.app](https://webnative.app) and App/Play Stores.
 
 ## Plugins Used
 The following plugins are preinstalled
