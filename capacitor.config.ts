@@ -3,7 +3,7 @@ import { KeyboardStyle } from '@capacitor/keyboard';
 
 const config: CapacitorConfig = {
   appId: 'ionic.capview',
-  appName: 'capview',
+  appName: 'WebNative',
   webDir: 'www',
   backgroundColor: '#333333',
   server: {    

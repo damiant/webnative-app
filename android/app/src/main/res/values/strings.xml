@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Nexus</string>
-    <string name="title_activity_main">Nexus</string>
+    <string name="app_name">WebNative</string>
+    <string name="title_activity_main">WebNative</string>
     <string name="package_name">ionic.capview</string>
     <string name="custom_url_scheme">ionic.capview</string>
 </resources>
