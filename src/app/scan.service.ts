@@ -8,9 +8,9 @@ import {
   providedIn: 'root',
 })
 export class ScanService {
-  constructor() {}
+  constructor() { }
 
-  public async prepare(): Promise<void> {}
+  public async prepare(): Promise<void> { }
 
   public async scan(): Promise<string | undefined> {
     try {
