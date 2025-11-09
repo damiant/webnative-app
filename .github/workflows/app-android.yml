@@ -47,7 +47,7 @@ jobs:
           base64 -d android/release.jks.base64 > android/release.decrypted.jks
 
       - name: Sign build
-        run: jarsigner -keystore android/release.decrypted.jks -storepass "${{ secrets.KEYSTORE_PASSWORD }}" -signedjar ./android/app/build/outputs/bundle/release/app-release-signed.aab ./android/app/build/outputs/bundle/release/app-release.aab dust
+        run: jarsigner -keystore android/release.decrypted.jks -storepass "${{ secrets.KEYSTORE_PASSWORD }}" -signedjar ./android/app/build/outputs/bundle/release/app-release-signed.aab ./android/app/build/outputs/bundle/release/app-release.aab key0
 
       - name: Send to Play Store          
         uses: r0adkll/upload-google-play@v1
