@@ -1,4 +1,4 @@
-import { Component, NgZone, OnInit } from '@angular/core';
+import { Component, NgZone, OnInit, inject } from '@angular/core';
 import { Capacitor } from '@capacitor/core';
 import { Keyboard, KeyboardResize } from '@capacitor/keyboard';
 import { StatusBar, Style } from '@capacitor/status-bar';
@@ -61,6 +61,16 @@ interface HomeModel {
     styleUrls: ['home.page.scss']
 })
 export class HomePage implements OnInit {
+  private router = inject(Router);
+  private alert = inject(AlertController);
+  private ui = inject(UIService);
+  private historyService = inject(HistoryService);
+  private scanService = inject(ScanService);
+  private ngZone = inject(NgZone);
+  private urlService = inject(UrlService);
+  private actionSheetCtrl = inject(ActionSheetController);
+  private settingsService = inject(SettingsService);
+
   public vm: HomeModel = {
     url: '',
     isNative: Capacitor.isNativePlatform(),
@@ -69,17 +79,7 @@ export class HomePage implements OnInit {
     connectDisabled: false,
   };
 
-  constructor(
-    private router: Router,
-    private alert: AlertController,
-    private ui: UIService,
-    private historyService: HistoryService,
-    private scanService: ScanService,
-    private ngZone: NgZone,
-    private urlService: UrlService,
-    private actionSheetCtrl: ActionSheetController,
-    private settingsService: SettingsService,
-  ) {
+  constructor() {
     addIcons({ ellipsisHorizontal, qrCodeSharp, qrCode });
   }
 

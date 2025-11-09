@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { App, URLOpenListenerEvent } from '@capacitor/app';
 import { UrlService } from './url.service';
 import { IonActionSheet, IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
@@ -13,7 +13,9 @@ import { defineCustomElement } from '@ionic/core/components/ion-modal.js';
     styleUrls: ['app.component.scss']
 })
 export class AppComponent {
-  constructor(private urlService: UrlService) {
+  private urlService = inject(UrlService);
+
+  constructor() {
     addIcons({ ellipsisHorizontal, qrCodeSharp, closeOutline, documentTextOutline });
     this.initializeApp();
 
