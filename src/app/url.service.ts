@@ -180,7 +180,7 @@ export class UrlService {
       }
 
       // IP Addresses
-      if (this.isIp(uri.host)) {
+      if (this.isIp(uri.hostname)) {
         return true;
       }
       return false;
