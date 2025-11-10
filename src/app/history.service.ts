@@ -215,9 +215,9 @@ export class HistoryService {
       url = url.trim();
     }
 
-    if (url.includes('nexusbrowser.com/')) {
-      // Likely a deep link like: https://nexusbrowser.com/192.168.0.125%3A8101
-      const part = url.split('nexusbrowser.com/');
+    if (url.includes('webnative.dev/')) {
+      // Likely a deep link like: https://webnative.dev/192.168.0.125%3A8101
+      const part = url.split('webnative.dev/');
       if (part[1]) {
         url = decodeURIComponent(part[1]);
       }
