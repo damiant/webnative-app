@@ -164,6 +164,7 @@ export class HomePage implements OnInit {
     const fullUrl = this.historyService.toFullUrl(url);
     this.urlService.setRemoteURL(fullUrl);
     if (!this.historyService.isValidUrl(fullUrl)) {
+      console.log('Invalid URL:', fullUrl);
       await this.ui.alert(this.alert, 'Enter a valid url');
       this.ui.focus('devServerUrl');
       return;

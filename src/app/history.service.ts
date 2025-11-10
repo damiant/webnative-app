@@ -223,14 +223,20 @@ export class HistoryService {
       }
     }
     if (!url.startsWith('http')) {
+      // Check if it's a hostname:port pattern (e.g., localhost:3000, example.com:8080)
+      const hasPort = url.includes(':') && /:\d+/.test(url);
+      
       if (url.match(/^\d/)) {
         // Its an IP address
         url = secure ? `https://${url}` : `http://${url}`;
+      } else if (hasPort) {
+        // It's a hostname:port pattern, use http by default
+        url = `http://${url}`;
       } else {
         url = `https://${url}`;
       }
     }
-    if (!url.includes('.')) {
+    if (!url.includes('.') && !url.includes(':')) {
       url += '.com';
     }
     return url;
