@@ -7,7 +7,7 @@
 <key>provisioningProfiles</key>
 <dict>
     <key>com.nexusconcepts.nexus</key>
-    <string>webbnative</string>
+    <string>WebNative</string>
 </dict>
 </dict>
 </plist>
