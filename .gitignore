@@ -74,3 +74,5 @@ resources/android/**/*
 .netlify
 ios/App/output
 /keys
+dist.p12
+profile.mobileprovision
