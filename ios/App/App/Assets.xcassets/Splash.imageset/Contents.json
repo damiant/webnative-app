@@ -1,56 +1,56 @@
 {
-  "images" : [
+  "images": [
     {
-      "filename" : "splash-2732x2732.png",
-      "idiom" : "universal",
-      "scale" : "1x"
+      "filename": "Default@1x~universal~anyany.png",
+      "idiom": "universal",
+      "scale": "1x"
     },
     {
-      "appearances" : [
+      "appearances": [
         {
-          "appearance" : "luminosity",
-          "value" : "dark"
+          "appearance": "luminosity",
+          "value": "dark"
         }
       ],
-      "filename" : "splash-2732x2732 1.png",
-      "idiom" : "universal",
-      "scale" : "1x"
+      "filename": "Default@1x~universal~anyany-dark.png",
+      "idiom": "universal",
+      "scale": "1x"
     },
     {
-      "filename" : "splash-2732x2732-2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
+      "filename": "Default@2x~universal~anyany.png",
+      "idiom": "universal",
+      "scale": "2x"
     },
     {
-      "appearances" : [
+      "appearances": [
         {
-          "appearance" : "luminosity",
-          "value" : "dark"
+          "appearance": "luminosity",
+          "value": "dark"
         }
       ],
-      "filename" : "splash-2732x2732-2x 1.png",
-      "idiom" : "universal",
-      "scale" : "2x"
+      "filename": "Default@2x~universal~anyany-dark.png",
+      "idiom": "universal",
+      "scale": "2x"
     },
     {
-      "filename" : "splash-2732x2732-3x.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename": "Default@3x~universal~anyany.png",
+      "idiom": "universal",
+      "scale": "3x"
     },
     {
-      "appearances" : [
+      "appearances": [
         {
-          "appearance" : "luminosity",
-          "value" : "dark"
+          "appearance": "luminosity",
+          "value": "dark"
         }
       ],
-      "filename" : "splash-2732x2732-3x 1.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename": "Default@3x~universal~anyany-dark.png",
+      "idiom": "universal",
+      "scale": "3x"
     }
   ],
-  "info" : {
-    "author" : "xcode",
-    "version" : 1
+  "info": {
+    "author": "xcode",
+    "version": 1
   }
 }

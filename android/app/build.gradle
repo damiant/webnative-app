@@ -7,8 +7,8 @@ android {
         applicationId "com.nexusconcepts.nexus"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 41
-        versionName "1.32"
+        versionCode 42
+        versionName "1.33"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
             'AUTH_URL_SCHEME': 'io.ionic.capview'

@@ -1,4 +1,9 @@
 # Changelog
+## 1.33
+
+- Fix for hostname/port combination
+- Update dependencies
+
 ## 1.30
 
 - Support for Capacitor 7

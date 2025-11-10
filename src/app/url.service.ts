@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { Browser } from '@capacitor/browser';
 import { Capacitor, CapacitorHttp, HttpResponse } from '@capacitor/core';
 import { Keyboard, KeyboardResize } from '@capacitor/keyboard';
@@ -12,9 +12,9 @@ import { Device } from '@capacitor/device';
   providedIn: 'root',
 })
 export class UrlService {
-  private slug: string | undefined;
+  private historyService = inject(HistoryService);
 
-  constructor(private historyService: HistoryService) { }
+  private slug: string | undefined;
 
   public async visit(url: string, save: boolean): Promise<string | undefined> {
     if (Capacitor.isNativePlatform()) {
@@ -180,7 +180,7 @@ export class UrlService {
       }
 
       // IP Addresses
-      if (this.isIp(uri.host)) {
+      if (this.isIp(uri.hostname)) {
         return true;
       }
       return false;

@@ -215,22 +215,28 @@ export class HistoryService {
       url = url.trim();
     }
 
-    if (url.includes('nexusbrowser.com/')) {
-      // Likely a deep link like: https://nexusbrowser.com/192.168.0.125%3A8101
-      const part = url.split('nexusbrowser.com/');
+    if (url.includes('webnative.dev/')) {
+      // Likely a deep link like: https://webnative.dev/192.168.0.125%3A8101
+      const part = url.split('webnative.dev/');
       if (part[1]) {
         url = decodeURIComponent(part[1]);
       }
     }
     if (!url.startsWith('http')) {
+      // Check if it's a hostname:port pattern (e.g., localhost:3000, example.com:8080)
+      const hasPort = url.includes(':') && /:\d+/.test(url);
+      
       if (url.match(/^\d/)) {
         // Its an IP address
         url = secure ? `https://${url}` : `http://${url}`;
+      } else if (hasPort) {
+        // It's a hostname:port pattern, use http by default
+        url = `http://${url}`;
       } else {
         url = `https://${url}`;
       }
     }
-    if (!url.includes('.')) {
+    if (!url.includes('.') && !url.includes(':')) {
       url += '.com';
     }
     return url;
@@ -271,7 +277,8 @@ export class HistoryService {
     var urlPattern = new RegExp(
       '^(https?:\\/\\/)?' + // validate protocol
         '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // validate domain name
-        '((\\d{1,3}\\.){3}\\d{1,3}))' + // validate OR ip (v4) address
+        '((\\d{1,3}\\.){3}\\d{1,3})|' + // validate OR ip (v4) address
+        '([a-z\\d]([a-z\\d-]*[a-z\\d])*))' + // validate OR hostname without TLD (e.g., localhost)
         '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // validate port and path
         '(\\?[;&a-z\\d%_.~+=-]*)?' + // validate query string
         '(\\#[-a-z\\d_]*)?$',

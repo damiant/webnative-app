@@ -7,7 +7,7 @@
 
 - Try the input down the bottom and have it work a little more like safari
 - Pop sound and animation on seeing an app appear (but only if >30 seconds after launched app)
-- Add a "Share" link (eg for developers to share a link to the app - generate `https://nexusbrowser.com/[ip:port]` for Capacitor links)
+- Add a "Share" link (eg for developers to share a link to the app - generate `https://webnative.dev/[ip:port]` for Capacitor links)
 - Clear history should clear local-storage, cookies, index-db, preferences
 - Show accessory bar to get autocomplete working
 - Make the barcode reader plugin background color #333

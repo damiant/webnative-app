@@ -24,13 +24,13 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="nexusbrowser.com" />
+                <data android:scheme="https" android:host="webnative.dev" />
             </intent-filter>
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="capacitor.nexusbrowser.com" />
+                <data android:scheme="https" android:host="capacitor.webnative.dev" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />

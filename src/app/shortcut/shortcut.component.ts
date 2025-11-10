@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Service } from '../discovery';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
@@ -18,9 +18,11 @@ export enum ShortcutAction {
     styleUrls: ['./shortcut.component.scss']
 })
 export class ShortcutComponent {
+  private sanitizer = inject(DomSanitizer);
+
   @Input() service: Service = { address: 'localhost', name: 'domain', secure: false };
   @Output() clicked = new EventEmitter<ShortcutAction>();
-  constructor(private sanitizer: DomSanitizer) {
+  constructor() {
     addIcons({ documentTextOutline });
   }
 
