@@ -1,4 +1,8 @@
 # Changelog
+## 1.34
+
+- Add @capacitor/file-viewer plugin
+
 ## 1.33
 
 - Fix for hostname/port combination

@@ -48,6 +48,7 @@
     "@capacitor/core": "7.4.4",
     "@capacitor/device": "7.0.2",
     "@capacitor/dialog": "7.0.2",
+    "@capacitor/file-viewer": "1.0.5",
     "@capacitor/filesystem": "7.1.4",
     "@capacitor/geolocation": "7.1.5",
     "@capacitor/haptics": "7.0.2",

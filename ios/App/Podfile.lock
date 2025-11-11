@@ -30,6 +30,9 @@ PODS:
   - CapacitorFilesystem (7.1.4):
     - Capacitor
     - IONFilesystemLib (~> 1.0.1)
+  - CapacitorFileViewer (1.0.5):
+    - Capacitor
+    - IONFileViewerLib (~> 1.0.3)
   - CapacitorGeolocation (7.1.5):
     - Capacitor
     - IONGeolocationLib (= 1.0.1)
@@ -66,6 +69,7 @@ PODS:
     - CapacitorCordova
   - CordovaPluginsResources (0.0.105)
   - IONFilesystemLib (1.0.1)
+  - IONFileViewerLib (1.0.3)
   - IONGeolocationLib (1.0.1)
   - OSBarcodeLib (2.0.1)
   - OSInAppBrowserLib (2.3.1)
@@ -90,6 +94,7 @@ DEPENDENCIES:
   - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
   - "CapacitorDialog (from `../../node_modules/@capacitor/dialog`)"
   - "CapacitorFilesystem (from `../../node_modules/@capacitor/filesystem`)"
+  - "CapacitorFileViewer (from `../../node_modules/@capacitor/file-viewer`)"
   - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
   - "CapacitorInappbrowser (from `../../node_modules/@capacitor/inappbrowser`)"
@@ -112,6 +117,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - IONFilesystemLib
+    - IONFileViewerLib
     - IONGeolocationLib
     - OSBarcodeLib
     - OSInAppBrowserLib
@@ -148,6 +154,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/dialog"
   CapacitorFilesystem:
     :path: "../../node_modules/@capacitor/filesystem"
+  CapacitorFileViewer:
+    :path: "../../node_modules/@capacitor/file-viewer"
   CapacitorGeolocation:
     :path: "../../node_modules/@capacitor/geolocation"
   CapacitorHaptics:
@@ -201,6 +209,7 @@ SPEC CHECKSUMS:
   CapacitorDevice: 81ae78d5d1942707caad79276badd458bf6ec603
   CapacitorDialog: 5bf72a94b747fb339df6f64ef60812e5e4630ad2
   CapacitorFilesystem: f9bd850c41e048180e5dc0cbb90f2033ede9d2cc
+  CapacitorFileViewer: 365f8382725e232f1c3225246fe67b3c90c8ae17
   CapacitorGeolocation: 84f868bea4c2499aebc3bb3a88fd0a508f87ab87
   CapacitorHaptics: b3fb2869e72c4466e18ce9ccbeb60a3d8723b3d4
   CapacitorInappbrowser: e3bd7457f6ed4b9780d38f3deb7c953a4790e3ad
@@ -219,12 +228,13 @@ SPEC CHECKSUMS:
   CordovaPlugins: f633bb9ce15a21b5ef083b1317c5d84273140ba4
   CordovaPluginsResources: da93847212bf7b16ba770e4d6c3e7dba820174c7
   IONFilesystemLib: 89258b8e3e85465da93127d25d7ce37f977e8a6f
+  IONFileViewerLib: 574758ebcaa4b1543669b1c9708f1970e1172b29
   IONGeolocationLib: 20f9d0248a0b5264511fb57a37e25dd2badf797a
   OSBarcodeLib: 57987d2eb1f916f701f4554e20e349b3cb83f023
   OSInAppBrowserLib: bf7cdcc072394ae827f8cfe3f5f9c807691834c0
   Sentry: b53951377b78e21a734f5dc8318e333dbfc682d7
   SentryCapacitor: 84549a1440a7f58a336ed3175db0f067d571cd5b
 
-PODFILE CHECKSUM: ebbd4ff6699a271d0cc043c8e924828655e33796
+PODFILE CHECKSUM: 2dd88049acb6799c2d4dc221187e239acf065876
 
 COCOAPODS: 1.16.2
