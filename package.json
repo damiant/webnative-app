@@ -120,11 +120,11 @@
   },
   "description": "Browser Mobile Application",
   "browserslist": [
-    "Chrome >=61",
-    "ChromeAndroid >=61",
-    "Firefox >=63",
-    "Edge >=79",
-    "Safari >=13",
-    "iOS >=13"
+    "Chrome >=107",
+    "ChromeAndroid >=60",
+    "Firefox >=106",
+    "Edge >=107",
+    "Safari >=16.1",
+    "iOS >=16.1"
   ]
 }
