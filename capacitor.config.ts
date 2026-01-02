@@ -4,7 +4,7 @@ import { KeyboardStyle } from '@capacitor/keyboard';
 const config: CapacitorConfig = {
   appId: 'ionic.capview',
   appName: 'WebNative',
-  webDir: 'www',
+  webDir: 'www/browser',
   backgroundColor: '#333333',
   server: {    
     allowNavigation: ['*'],
