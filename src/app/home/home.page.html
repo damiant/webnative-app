@@ -12,9 +12,9 @@
     <picture aria-hidden="true">
       <img class="logo animate__animated animate__fadeInDown" src="assets/webnative.svg" />
     </picture>
-    <form class="animate__animated animate__zoomIn" [hidden]="vm.busy" (submit)="connect(vm.url)">
+    <form class="animate__animated animate__zoomIn" [hidden]="vm.busy" (submit)="connect(vm.url)" [formGroup]="urlForm">
       <input (keydown.enter)="handleKeyEnter($event)" aria-label="URL" enterkeyhint="go" id="devServerUrl" name="devServerUrl" placeholder="Type a URL (eg apple.com)"
-        [(ngModel)]="vm.url" type="url" />
+        formControlName="url" type="url" />
       <button class="qr" (click)="scan()">
         @if (vm.isNative) {
           <ion-icon role="button" aria-label="Scan a QR Code for a URL"

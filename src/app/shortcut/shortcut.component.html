@@ -2,7 +2,7 @@
   <button (click)="click()" class="icon-button" [attr.aria-label]="service.name">
     <!-- <ion-icon *ngIf="!service.icon" size="large" [name]="service.port ? 'logo-capacitor' : 'document-text-outline'"></ion-icon> -->
     @if (!service.icon && !service.port) {
-      <ion-icon size="large" name="document-text-outline"></ion-icon>
+      <ion-icon name="document-text-outline"></ion-icon>
     }
     @if (!service.icon && service.port) {
       <img src="assets/cap-icon.svg" />

@@ -16,7 +16,7 @@ import { SlidesComponent } from '../slides/slides.component';
 import { SlideComponent } from '../slide/slide.component';
 import { delay } from '../util.service';
 
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule, FormGroup, FormControl } from '@angular/forms';
 import { Service } from '../discovery';
 import { IonicDiscover } from '../cordova-plugins';
 import { ShortcutAction, ShortcutComponent } from '../shortcut/shortcut.component';
@@ -43,7 +43,7 @@ interface HomeModel {
 @Component({
     imports: [
     ShortcutComponent,
-    FormsModule,
+    ReactiveFormsModule,
     IonContent,
     IonFab,
     IonFabButton,
@@ -69,6 +69,10 @@ export class HomePage implements OnInit {
   private urlService = inject(UrlService);
   private actionSheetCtrl = inject(ActionSheetController);
   private settingsService = inject(SettingsService);
+
+  urlForm = new FormGroup({
+    url: new FormControl('')
+  });
 
   public vm: HomeModel = {
     url: '',
@@ -155,12 +159,13 @@ export class HomePage implements OnInit {
    * @param  {string} url
    * @param {boolean} save Whether to save as a shortcut
    */
-  public async connect(url: string, save?: boolean) {
+  public async connect(url?: string, save?: boolean) {
     if (this.vm.connectDisabled) {
       this.vm.connectDisabled = false;
       return;
     }
-    const fullUrl = this.historyService.toFullUrl(url);
+    const urlValue = url || this.urlForm.get('url')?.value || '';
+    const fullUrl = this.historyService.toFullUrl(urlValue);
     this.urlService.setRemoteURL(fullUrl);
     if (!this.historyService.isValidUrl(fullUrl)) {
       console.log('Invalid URL:', fullUrl);
