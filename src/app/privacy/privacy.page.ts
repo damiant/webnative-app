@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink, RouterModule } from '@angular/router';
@@ -9,16 +9,15 @@ import { IonRouterLink, IonContent, IonFab, IonFabButton, IonIcon } from '@ionic
 
 @Component({
     imports: [
-        CommonModule,
-        FormsModule,
-        RouterModule,
-        RouterLink,
-        IonRouterLink,
-        IonContent,
-        IonFab,
-        IonFabButton,
-        IonIcon,
-    ],
+    FormsModule,
+    RouterModule,
+    RouterLink,
+    IonRouterLink,
+    IonContent,
+    IonFab,
+    IonFabButton,
+    IonIcon
+],
     selector: 'app-privacy',
     templateUrl: './privacy.page.html',
     styleUrls: ['./privacy.page.scss']

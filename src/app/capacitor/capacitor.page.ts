@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Capacitor } from '@capacitor/core';
-import { CommonModule } from '@angular/common';
+
 import { FormsModule } from '@angular/forms';
 import { QRCodeComponent } from 'angularx-qrcode';
 import { addIcons } from 'ionicons';
@@ -8,7 +8,7 @@ import { logoAppleAppstore, logoGooglePlaystore } from 'ionicons/icons';
 import { IonContent, IonButton, IonIcon } from '@ionic/angular/standalone';
 
 @Component({
-    imports: [CommonModule, FormsModule, QRCodeComponent, IonContent, IonButton, IonIcon],
+    imports: [FormsModule, QRCodeComponent, IonContent, IonButton, IonIcon],
     selector: 'app-link',
     templateUrl: './capacitor.page.html',
     styleUrls: ['./capacitor.page.scss']

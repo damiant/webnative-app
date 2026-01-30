@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { Service } from '../discovery';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import { addIcons } from 'ionicons';
@@ -12,7 +12,7 @@ export enum ShortcutAction {
 }
 
 @Component({
-    imports: [CommonModule, IonIcon, IonLabel],
+    imports: [IonIcon, IonLabel],
     selector: 'app-shortcut',
     templateUrl: './shortcut.component.html',
     styleUrls: ['./shortcut.component.scss']
