@@ -67,7 +67,7 @@
     "@capacitor/text-zoom": "7.0.2",
     "@capacitor/toast": "7.0.2",
     "@capawesome/capacitor-file-picker": "7.2.0",
-    "@ionic/angular": "7.8.0",
+    "@ionic/angular": "8.7.17",
     "@ionic/remote-log": "0.0.2",
     "@sentry/capacitor": "2.4.1",
     "@webnativellc/cordova-plugin-ionic-discover": "^1.0.5",
