@@ -15,7 +15,7 @@ import { SplashScreen } from '@capacitor/splash-screen';
 import { SlidesComponent } from '../slides/slides.component';
 import { SlideComponent } from '../slide/slide.component';
 import { delay } from '../util.service';
-import { CommonModule } from '@angular/common';
+
 import { FormsModule } from '@angular/forms';
 import { Service } from '../discovery';
 import { IonicDiscover } from '../cordova-plugins';
@@ -41,21 +41,20 @@ interface HomeModel {
 }
 
 @Component({
-    imports: [       
-        ShortcutComponent,
-        CommonModule,
-        FormsModule,
-        IonContent,
-        IonFab,
-        IonFabButton,
-        IonIcon,
-        IonSpinner,
-        IonContent,
-        IonFab,
-        IonFabButton,
-        IonIcon,
-        IonSpinner,
-    ],
+    imports: [
+    ShortcutComponent,
+    FormsModule,
+    IonContent,
+    IonFab,
+    IonFabButton,
+    IonIcon,
+    IonSpinner,
+    IonContent,
+    IonFab,
+    IonFabButton,
+    IonIcon,
+    IonSpinner
+],
     selector: 'app-home',
     templateUrl: 'home.page.html',
     styleUrls: ['home.page.scss']
