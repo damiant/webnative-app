@@ -1,8 +1,8 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    imports: [CommonModule],
+    imports: [],
     selector: 'app-slide',
     templateUrl: './slide.component.html',
     styleUrls: ['./slide.component.scss']

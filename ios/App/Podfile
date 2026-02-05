@@ -1,7 +1,12 @@
 require_relative '../../node_modules/@capacitor/ios/scripts/pods_helpers'
 
-platform :ios, '14.0'
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '16.0'
 use_frameworks!
+
+# Disable input/output paths warning for Xcode caching
+install! 'cocoapods', :disable_input_output_paths => true, :warn_for_unused_master_specs_repo => false
 
 # workaround to avoid Xcode caching of Pods that requires
 # Product -> Clean Build Folder after new Cordova plugins installed
@@ -52,4 +57,11 @@ end
 
 post_install do |installer|
   assertDeploymentTarget(installer)
+  
+  # Set deployment target for all pods to ensure iOS 16 compatibility
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
+    end
+  end
 end
