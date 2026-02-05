@@ -6,131 +6,119 @@
     },
     {
       "name": "@capacitor-community/bluetooth-le",
-      "version": "7.2.0"
+      "version": "8.0.1"
     },
     {
       "name": "@capacitor-community/camera-preview",
-      "version": "7.0.2"
+      "version": "7.0.4"
     },
     {
       "name": "@capacitor-community/keep-awake",
-      "version": "7.1.0"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/action-sheet",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/app",
-      "version": "7.1.0"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/barcode-scanner",
-      "version": "2.2.0"
+      "version": "3.0.1"
     },
     {
       "name": "@capacitor/browser",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/camera",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/clipboard",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/device",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/dialog",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/file-viewer",
-      "version": "1.0.5"
+      "version": "2.0.0"
     },
     {
       "name": "@capacitor/filesystem",
-      "version": "7.1.4"
+      "version": "8.1.0"
     },
     {
       "name": "@capacitor/geolocation",
-      "version": "7.1.5"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/haptics",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/inappbrowser",
-      "version": "2.5.1"
+      "version": "3.0.1"
     },
     {
       "name": "@capacitor/keyboard",
-      "version": "7.0.3"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/local-notifications",
-      "version": "7.0.3"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/motion",
-      "version": "7.0.1"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/network",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/preferences",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/screen-orientation",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/screen-reader",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/share",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/splash-screen",
-      "version": "7.0.3"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/status-bar",
-      "version": "7.0.3"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/text-zoom",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capacitor/toast",
-      "version": "7.0.2"
+      "version": "8.0.0"
     },
     {
       "name": "@capawesome/capacitor-file-picker",
-      "version": "7.2.0"
-    },
-    {
-      "name": "@jsonjoy.com/buffers",
-      "version": "1.2.1"
-    },
-    {
-      "name": "@jsonjoy.com/codegen",
-      "version": "1.0.0"
-    },
-    {
-      "name": "@jsonjoy.com/json-pointer",
-      "version": "1.0.2"
+      "version": "8.0.1"
     },
     {
       "name": "@sentry/capacitor",
@@ -138,27 +126,11 @@
     },
     {
       "name": "@vitest/ui",
-      "version": "4.0.8"
+      "version": "4.0.18"
     },
     {
       "name": "@webnativellc/cordova-plugin-ionic-discover",
       "version": "1.0.5"
-    },
-    {
-      "name": "bl",
-      "version": "4.1.0"
-    },
-    {
-      "name": "buffer",
-      "version": "5.7.1"
-    },
-    {
-      "name": "builtin-modules",
-      "version": "3.3.0"
-    },
-    {
-      "name": "clone",
-      "version": "1.0.4"
     },
     {
       "name": "cordova-plugin-advanced-http",
@@ -173,40 +145,12 @@
       "version": "6.0.0"
     },
     {
-      "name": "defaults",
-      "version": "1.0.4"
-    },
-    {
-      "name": "generator-function",
-      "version": "2.0.1"
-    },
-    {
-      "name": "glob-to-regex.js",
-      "version": "1.2.0"
-    },
-    {
-      "name": "ieee754",
-      "version": "1.2.1"
-    },
-    {
-      "name": "is-builtin-module",
-      "version": "3.2.1"
-    },
-    {
       "name": "jsdom",
-      "version": "27.1.0"
-    },
-    {
-      "name": "mimic-fn",
-      "version": "2.1.0"
+      "version": "27.4.0"
     },
     {
       "name": "vitest",
-      "version": "4.0.8"
-    },
-    {
-      "name": "wcwidth",
-      "version": "1.0.1"
+      "version": "4.0.18"
     }
   ]
 }

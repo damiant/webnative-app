@@ -5,7 +5,7 @@ PODS:
     - Capacitor
   - CapacitorApp (8.0.0):
     - Capacitor
-  - CapacitorBarcodeScanner (2.2.0):
+  - CapacitorBarcodeScanner (3.0.1):
     - Capacitor
     - OSBarcodeLib (= 2.0.1)
   - CapacitorBrowser (8.0.0):
@@ -18,7 +18,7 @@ PODS:
     - Capacitor
   - CapacitorCommunityBluetoothLe (8.0.1):
     - Capacitor
-  - CapacitorCommunityCameraPreview (7.0.3):
+  - CapacitorCommunityCameraPreview (7.0.4):
     - Capacitor
   - CapacitorCommunityKeepAwake (8.0.0):
     - Capacitor
@@ -27,10 +27,10 @@ PODS:
     - Capacitor
   - CapacitorDialog (8.0.0):
     - Capacitor
-  - CapacitorFilesystem (8.0.0):
+  - CapacitorFilesystem (8.1.0):
     - Capacitor
-    - IONFilesystemLib (~> 1.0.1)
-  - CapacitorFileViewer (1.0.5):
+    - IONFilesystemLib (~> 1.1.0)
+  - CapacitorFileViewer (2.0.0):
     - Capacitor
     - IONFileViewerLib (~> 1.0.3)
   - CapacitorGeolocation (8.0.0):
@@ -38,7 +38,7 @@ PODS:
     - IONGeolocationLib (= 2.0.0)
   - CapacitorHaptics (8.0.0):
     - Capacitor
-  - CapacitorInappbrowser (2.5.1):
+  - CapacitorInappbrowser (3.0.1):
     - Capacitor
     - OSInAppBrowserLib (~> 2.3.1)
   - CapacitorKeyboard (8.0.0):
@@ -68,7 +68,7 @@ PODS:
   - CordovaPlugins (8.0.2):
     - CapacitorCordova
   - CordovaPluginsResources (0.0.105)
-  - IONFilesystemLib (1.0.1)
+  - IONFilesystemLib (1.1.0)
   - IONFileViewerLib (1.0.3)
   - IONGeolocationLib (2.0.0)
   - OSBarcodeLib (2.0.1)
@@ -197,22 +197,22 @@ SPEC CHECKSUMS:
   Capacitor: 2b79172ad27f3be2d103cce88b8eb9803fdcc744
   CapacitorActionSheet: 23a61973f273680dc12ef506109d9397675e3fc3
   CapacitorApp: 3963a84197280757b84f126afd1520a85ae3b092
-  CapacitorBarcodeScanner: 4b6d4ecfff4133af982d09acd423610c14ac0c3f
+  CapacitorBarcodeScanner: cbd24d561545a5a1ba7d5f4328a285d347718c52
   CapacitorBrowser: b7d7f05f840fe042e46f6528bb8db853e3058fb2
   CapacitorCamera: 592acb7ab9fb748e2d8571eb03af30ec4e1ace12
   CapacitorClipboard: 61832a3722adc61afed6e0191c8a0e11ba11674d
   CapacitorCommunityAppleSignIn: 271cb2860576fd2961508bbfa7a82117d93eadca
   CapacitorCommunityBluetoothLe: f08cd0b72b3397fa4402e6a76e1a909425d200f9
-  CapacitorCommunityCameraPreview: ba86f7192ad2e6744d6bdfa881b5ceaf8d81d4c9
+  CapacitorCommunityCameraPreview: 44c56001c577be07d7c7674c335e1af908112b84
   CapacitorCommunityKeepAwake: 332bf035bbdf0b1c244fd492b35a8a06c8802111
   CapacitorCordova: 921bdb690ebe82421b24fce45552fd3dea2ae43a
   CapacitorDevice: 9a16fb36a19ff391bf75afbe3cf16f883b3b3aa0
   CapacitorDialog: 3721e40dd075f590328166c29b4e982dbeedeb56
-  CapacitorFilesystem: 2cb7c29536024668f333266a2177f8c10bbd9c98
-  CapacitorFileViewer: 365f8382725e232f1c3225246fe67b3c90c8ae17
+  CapacitorFilesystem: a957d4a4b6860844c4eba5bf441607a5166f92a7
+  CapacitorFileViewer: a3e6a26ae3e0d8e24af1b3959ebb4fc0d7e550b9
   CapacitorGeolocation: 8a405e707de9aff6ac9eca7f408966a370f7ca33
   CapacitorHaptics: 2079d9fa04c5a71e18663b4722323c304c58245c
-  CapacitorInappbrowser: e3bd7457f6ed4b9780d38f3deb7c953a4790e3ad
+  CapacitorInappbrowser: d1a281d9f96848fb80c85d5c1fab5772587a6bb3
   CapacitorKeyboard: d7868c079a4d5277a3deca27a10a488fcbbb8b69
   CapacitorLocalNotifications: 177cfbf8228d9bd82a147e094cb7984d7afb9e29
   CapacitorNetwork: 156f8096cbbce5337eb1769fcc0d6adc4b85d3f3
@@ -227,7 +227,7 @@ SPEC CHECKSUMS:
   CapawesomeCapacitorFilePicker: cbd96b593d2bfdceb353ed161f9462ce4a9d67a9
   CordovaPlugins: 19d039f00e131c4560a9757538058bab04141252
   CordovaPluginsResources: da93847212bf7b16ba770e4d6c3e7dba820174c7
-  IONFilesystemLib: 89258b8e3e85465da93127d25d7ce37f977e8a6f
+  IONFilesystemLib: 50b9a0f3052a9b40b9bedb43f328a8fe222f9f87
   IONFileViewerLib: 574758ebcaa4b1543669b1c9708f1970e1172b29
   IONGeolocationLib: a5e40b54edc2ee9902036eda5aaa41ddf07bb68d
   OSBarcodeLib: 57987d2eb1f916f701f4554e20e349b3cb83f023

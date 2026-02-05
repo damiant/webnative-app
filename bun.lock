@@ -5,31 +5,31 @@
     "": {
       "name": "nexus-browser",
       "dependencies": {
-        "@angular/common": "^21.1.2",
-        "@angular/core": "^21.1.2",
-        "@angular/forms": "^21.1.2",
-        "@angular/platform-browser": "^21.1.2",
-        "@angular/platform-browser-dynamic": "^21.1.2",
-        "@angular/router": "^21.1.2",
+        "@angular/common": "^21.1.3",
+        "@angular/core": "^21.1.3",
+        "@angular/forms": "^21.1.3",
+        "@angular/platform-browser": "^21.1.3",
+        "@angular/platform-browser-dynamic": "^21.1.3",
+        "@angular/router": "^21.1.3",
         "@capacitor-community/apple-sign-in": "7.1.0",
         "@capacitor-community/bluetooth-le": "8.0.1",
-        "@capacitor-community/camera-preview": "7.0.3",
+        "@capacitor-community/camera-preview": "7.0.4",
         "@capacitor-community/keep-awake": "8.0.0",
         "@capacitor/action-sheet": "^8.0.0",
         "@capacitor/android": "^8.0.2",
         "@capacitor/app": "^8.0.0",
-        "@capacitor/barcode-scanner": "2.2.0",
+        "@capacitor/barcode-scanner": "3.0.1",
         "@capacitor/browser": "^8.0.0",
         "@capacitor/camera": "^8.0.0",
         "@capacitor/clipboard": "^8.0.0",
         "@capacitor/core": "^8.0.2",
         "@capacitor/device": "^8.0.0",
         "@capacitor/dialog": "^8.0.0",
-        "@capacitor/file-viewer": "1.0.5",
-        "@capacitor/filesystem": "8.0.0",
+        "@capacitor/file-viewer": "2.0.0",
+        "@capacitor/filesystem": "8.1.0",
         "@capacitor/geolocation": "^8.0.0",
         "@capacitor/haptics": "^8.0.0",
-        "@capacitor/inappbrowser": "2.5.1",
+        "@capacitor/inappbrowser": "3.0.1",
         "@capacitor/ios": "^8.0.2",
         "@capacitor/keyboard": "^8.0.0",
         "@capacitor/local-notifications": "^8.0.0",
@@ -59,14 +59,14 @@
       },
       "devDependencies": {
         "@angular-devkit/build-angular": "^21.1.2",
-        "@angular-eslint/builder": "^21.2.0",
-        "@angular-eslint/eslint-plugin": "^21.2.0",
-        "@angular-eslint/eslint-plugin-template": "^21.2.0",
-        "@angular-eslint/template-parser": "^21.2.0",
+        "@angular-eslint/builder": "21",
+        "@angular-eslint/eslint-plugin": "21",
+        "@angular-eslint/eslint-plugin-template": "21",
+        "@angular-eslint/template-parser": "21",
         "@angular/cli": "^21.1.2",
-        "@angular/compiler": "^21.1.2",
-        "@angular/compiler-cli": "^21.1.2",
-        "@angular/language-service": "^21.1.2",
+        "@angular/compiler": "^21.1.3",
+        "@angular/compiler-cli": "^21.1.3",
+        "@angular/language-service": "^21.1.3",
         "@capacitor/cli": "^8.0.2",
         "@ionic/angular-toolkit": "12.3.0",
         "@ionic/eslint-config": "0.4.0",
@@ -156,23 +156,23 @@
 
     "@angular/cli": ["@angular/cli@21.1.2", "", { "dependencies": { "@angular-devkit/architect": "0.2101.2", "@angular-devkit/core": "21.1.2", "@angular-devkit/schematics": "21.1.2", "@inquirer/prompts": "7.10.1", "@listr2/prompt-adapter-inquirer": "3.0.5", "@modelcontextprotocol/sdk": "1.25.2", "@schematics/angular": "21.1.2", "@yarnpkg/lockfile": "1.1.0", "algoliasearch": "5.46.2", "ini": "6.0.0", "jsonc-parser": "3.3.1", "listr2": "9.0.5", "npm-package-arg": "13.0.2", "pacote": "21.0.4", "parse5-html-rewriting-stream": "8.0.0", "resolve": "1.22.11", "semver": "7.7.3", "yargs": "18.0.0", "zod": "4.3.5" }, "bin": { "ng": "bin/ng.js" } }, "sha512-AHjXCBl2PEilMJct6DX3ih5Fl5PiKpNDIj0ViTyVh1YcfpYjt6NzhVlV2o++8VNPNH/vMcmf2551LZIDProXXA=="],
 
-    "@angular/common": ["@angular/common@21.1.2", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/core": "21.1.2", "rxjs": "^6.5.3 || ^7.4.0" } }, "sha512-NK26OG1+/3EXLDWstSPmdGbkpt8bP9AsT9J7EBornMswUjmQDbjyb85N/esKjRjDMkw4p/aKpBo24eCV5uUmBA=="],
+    "@angular/common": ["@angular/common@21.1.3", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/core": "21.1.3", "rxjs": "^6.5.3 || ^7.4.0" } }, "sha512-Wdbln/UqZM5oVnpfIydRdhhL8A9x3bKZ9Zy1/mM0q+qFSftPvmFZIXhEpFqbDwNYbGUhGzx7t8iULC4sVVp/zA=="],
 
-    "@angular/compiler": ["@angular/compiler@21.1.2", "", { "dependencies": { "tslib": "^2.3.0" } }, "sha512-5OFdZPNix7iK4HSdRxPgg74VvcmQZAMzv9ACYZ8iGfNxiJUjFSurfz0AtVEh0oE2oZDH1v48bHI1s+0ljCHZhA=="],
+    "@angular/compiler": ["@angular/compiler@21.1.3", "", { "dependencies": { "tslib": "^2.3.0" } }, "sha512-gDNLh7MEf7Qf88ktZzS4LJQXCA5U8aQTfK9ak+0mi2ruZ0x4XSjQCro4H6OPKrrbq94+6GcnlSX5+oVIajEY3w=="],
 
-    "@angular/compiler-cli": ["@angular/compiler-cli@21.1.2", "", { "dependencies": { "@babel/core": "7.28.5", "@jridgewell/sourcemap-codec": "^1.4.14", "chokidar": "^5.0.0", "convert-source-map": "^1.5.1", "reflect-metadata": "^0.2.0", "semver": "^7.0.0", "tslib": "^2.3.0", "yargs": "^18.0.0" }, "peerDependencies": { "@angular/compiler": "21.1.2", "typescript": ">=5.9 <6.0" }, "optionalPeers": ["typescript"], "bin": { "ngc": "bundles/src/bin/ngc.js", "ng-xi18n": "bundles/src/bin/ng_xi18n.js" } }, "sha512-h+sX7QvSz58KvmRwNMa33EZHti8Cnw1DL01kInJ/foDchC/O2VMOumeGHS+lAe48t2Nbhiq/obgf275TkDZYsA=="],
+    "@angular/compiler-cli": ["@angular/compiler-cli@21.1.3", "", { "dependencies": { "@babel/core": "7.28.5", "@jridgewell/sourcemap-codec": "^1.4.14", "chokidar": "^5.0.0", "convert-source-map": "^1.5.1", "reflect-metadata": "^0.2.0", "semver": "^7.0.0", "tslib": "^2.3.0", "yargs": "^18.0.0" }, "peerDependencies": { "@angular/compiler": "21.1.3", "typescript": ">=5.9 <6.0" }, "optionalPeers": ["typescript"], "bin": { "ngc": "bundles/src/bin/ngc.js", "ng-xi18n": "bundles/src/bin/ng_xi18n.js" } }, "sha512-nKxoQ89W2B1WdonNQ9kgRnvLNS6DAxDrRHBslsKTlV+kbdv7h59M9PjT4ZZ2sp1M/M8LiofnUfa/s2jd/xYj5w=="],
 
-    "@angular/core": ["@angular/core@21.1.2", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/compiler": "21.1.2", "rxjs": "^6.5.3 || ^7.4.0", "zone.js": "~0.15.0 || ~0.16.0" }, "optionalPeers": ["@angular/compiler", "zone.js"] }, "sha512-W2xxRb7noOD1DdMwKaZ3chFhii6nutaNIXt7dfWsMWoujg3Kqpdn1ukeyW5aHKQZvCJTIGr4f3whZ8Sj/17aCA=="],
+    "@angular/core": ["@angular/core@21.1.3", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/compiler": "21.1.3", "rxjs": "^6.5.3 || ^7.4.0", "zone.js": "~0.15.0 || ~0.16.0" }, "optionalPeers": ["@angular/compiler", "zone.js"] }, "sha512-TbhQxRC7Lb/3WBdm1n8KRsktmVEuGBBp0WRF5mq0Ze4s1YewIM6cULrSw9ACtcL5jdcq7c74ms+uKQsaP/gdcQ=="],
 
-    "@angular/forms": ["@angular/forms@21.1.2", "", { "dependencies": { "@standard-schema/spec": "^1.0.0", "tslib": "^2.3.0" }, "peerDependencies": { "@angular/common": "21.1.2", "@angular/core": "21.1.2", "@angular/platform-browser": "21.1.2", "rxjs": "^6.5.3 || ^7.4.0" } }, "sha512-dY56FuoBEvfLMtatKGg1vMFSwgySzWJm3URaBj3GpFTjhnuByHoxH4Lb5u50lrrVc9VQt/BZmq3mDZXjlx6Qgw=="],
+    "@angular/forms": ["@angular/forms@21.1.3", "", { "dependencies": { "@standard-schema/spec": "^1.0.0", "tslib": "^2.3.0" }, "peerDependencies": { "@angular/common": "21.1.3", "@angular/core": "21.1.3", "@angular/platform-browser": "21.1.3", "rxjs": "^6.5.3 || ^7.4.0" } }, "sha512-YW/YdjM9suZUeJam9agHFXIEE3qQIhGYXMjnnX7xGjOe+CuR2R0qsWn1AR0yrKrNmFspb0lKgM7kTTJyzt8gZg=="],
 
-    "@angular/language-service": ["@angular/language-service@21.1.2", "", {}, "sha512-/2VXz08k0BVQoYiDv/AyQgDY9AVzFuo29I/OAh28za58ReiXkT/WOWgP4el1rewX4uxWnM+BEpYxC3hcc+Ls0Q=="],
+    "@angular/language-service": ["@angular/language-service@21.1.3", "", {}, "sha512-i7iMIMt2rbCDXRuVULbi0I5v4a7ldBgoGdPvHQ17poohTjU4NJ2Jm7p7mUYCGcDlYmWOvgxMGaoiqUs6S5lFPA=="],
 
-    "@angular/platform-browser": ["@angular/platform-browser@21.1.2", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/animations": "21.1.2", "@angular/common": "21.1.2", "@angular/core": "21.1.2" }, "optionalPeers": ["@angular/animations"] }, "sha512-8vnCbQhxugQ3meGQ0YlSp0uNBYUjpFXYjFnGQ0Xq5jvzc9WX7KSix6+AydEjZtQfc1bWRetBTOlhQpqnwYp53g=="],
+    "@angular/platform-browser": ["@angular/platform-browser@21.1.3", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/animations": "21.1.3", "@angular/common": "21.1.3", "@angular/core": "21.1.3" }, "optionalPeers": ["@angular/animations"] }, "sha512-W+ZMXAioaP7CsACafBCHsIxiiKrRTPOlQ+hcC7XNBwy+bn5mjGONoCgLreQs76M8HNWLtr/OAUAr6h26OguOuA=="],
 
-    "@angular/platform-browser-dynamic": ["@angular/platform-browser-dynamic@21.1.2", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/common": "21.1.2", "@angular/compiler": "21.1.2", "@angular/core": "21.1.2", "@angular/platform-browser": "21.1.2" } }, "sha512-3+6Le0CuEpJFdJniD2ol6i9i7gmlJv+Qck5lxY+eHq2Ylj0VJ9sBIFaMBCmvdb6lz7QYnKoZr+Lhv1MX6hVXyg=="],
+    "@angular/platform-browser-dynamic": ["@angular/platform-browser-dynamic@21.1.3", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/common": "21.1.3", "@angular/compiler": "21.1.3", "@angular/core": "21.1.3", "@angular/platform-browser": "21.1.3" } }, "sha512-wWEjrNtJfxzZmbDWdJSyRau7NWpQ6IFM9QAyn7xH3cQDGCj+Gy9lTU5sUIYQc+7sx3nKWztolc7h/M5meYCTAg=="],
 
-    "@angular/router": ["@angular/router@21.1.2", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/common": "21.1.2", "@angular/core": "21.1.2", "@angular/platform-browser": "21.1.2", "rxjs": "^6.5.3 || ^7.4.0" } }, "sha512-APl4tkTJIrpejlULLrGtIdLuJkNctPy0pnVijrJLR52nEV0xX165ulXk3XrL9QnMk0iy950aTYtoTal4aMw16Q=="],
+    "@angular/router": ["@angular/router@21.1.3", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/common": "21.1.3", "@angular/core": "21.1.3", "@angular/platform-browser": "21.1.3", "rxjs": "^6.5.3 || ^7.4.0" } }, "sha512-uAw4LAMHXAPCe4SywhlUEWjMYVbbLHwTxLyduSp1b+9aVwep0juy5O/Xttlxd/oigVe0NMnOyJG9y1Br/ubnrg=="],
 
     "@asamuzakjp/css-color": ["@asamuzakjp/css-color@4.1.1", "", { "dependencies": { "@csstools/css-calc": "^2.1.4", "@csstools/css-color-parser": "^3.1.0", "@csstools/css-parser-algorithms": "^3.0.5", "@csstools/css-tokenizer": "^3.0.4", "lru-cache": "^11.2.4" } }, "sha512-B0Hv6G3gWGMn0xKJ0txEi/jM5iFpT3MfDxmhZFb4W047GvytCf1DHQ1D69W3zHI4yWe2aTZAA0JnbMZ7Xc8DuQ=="],
 
@@ -368,7 +368,7 @@
 
     "@capacitor-community/bluetooth-le": ["@capacitor-community/bluetooth-le@8.0.1", "", { "dependencies": { "@types/web-bluetooth": "^0.0.20" }, "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-M0CjO7T9tztBzC1EnjUgUHkSKcdftQj3DGiUXjDvuNpxxZEjjr7Y2/sESkYaBcrdMUj2B2+bBAH15ZxFE9E2uQ=="],
 
-    "@capacitor-community/camera-preview": ["@capacitor-community/camera-preview@7.0.3", "", { "peerDependencies": { "@capacitor/core": ">=7.0.0" } }, "sha512-4kSOf7cl+cWx+fPRpK64il2wKzCpiD7H0Hb7ZI98CMkCy9+gw5ekNHZW5RvLvyq166Iaa8S1WdwIp1P7gF+JeQ=="],
+    "@capacitor-community/camera-preview": ["@capacitor-community/camera-preview@7.0.4", "", { "peerDependencies": { "@capacitor/core": ">=7.0.0" } }, "sha512-MdX3hFSBgnm2bCvWzoFMFA1tIAfDVjH1VGUoVoSggxQyfUQRfYiM/giJ6T4tlQo7Io9o6eRNjVat5oV5ldEYQQ=="],
 
     "@capacitor-community/keep-awake": ["@capacitor-community/keep-awake@8.0.0", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-+bNAILA4R8PU+rm6OuKfgW6T4N24oAb2Idut5whfX5JAz09j7UBKFBEmT5C0QFJ7S8NZzp9d/yBsbIhLj+JkAA=="],
 
@@ -378,7 +378,7 @@
 
     "@capacitor/app": ["@capacitor/app@8.0.0", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-OwzIkUs4w433Bu9WWAEbEYngXEfJXZ9Wmdb8eoaqzYBgB0W9/3Ed/mh6sAYPNBAZlpyarmewgP7Nb+d3Vrh+xA=="],
 
-    "@capacitor/barcode-scanner": ["@capacitor/barcode-scanner@2.2.0", "", { "dependencies": { "html5-qrcode": "2.3.8" }, "peerDependencies": { "@capacitor/core": ">=7.0.0" } }, "sha512-9KkjQAJ0TyvNT3W6b4dPbyeJ4ibVmjTPhqA9BP47f6rocwyOSAJCIoPJ7Vok7S4GqSYehaxFCvojuDUGk4vOpw=="],
+    "@capacitor/barcode-scanner": ["@capacitor/barcode-scanner@3.0.1", "", { "dependencies": { "html5-qrcode": "2.3.8" }, "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-XK3/MIKh7NU4YqDOx8cq248z1Rg68O33rEBuCcQ2dWuiYyGt0ChuQXUUnDxRV53Fe9sZ1fx6EsJStlM5P2oumQ=="],
 
     "@capacitor/browser": ["@capacitor/browser@8.0.0", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-xey7maszGABKuStvXDV4vXN+EzIyz0o7zlyzw4JKG6o/1GzqeqHqVuE+8Ux+Hks3DZji4LoriWZVgVF6mR6RGg=="],
 
@@ -394,15 +394,15 @@
 
     "@capacitor/dialog": ["@capacitor/dialog@8.0.0", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-ri19ISkWK89JHgVgR1JHZ4Yf6jzZHrXCMG4mqeiuUQqXXu6nw0uVBwEy9MwNQRw3Wlq/KboqLeIs1pQnOswqrQ=="],
 
-    "@capacitor/file-viewer": ["@capacitor/file-viewer@1.0.5", "", { "dependencies": { "@capacitor/synapse": "^1.0.3" }, "peerDependencies": { "@capacitor/core": ">=7.0.0" } }, "sha512-lFwJkOhxZgr+XGrKx5X3M3eVNEWCP/k0UMVzsul/857JZRFCaLn+fwMdIbJFgIjvUscmfcLPto5voH/cCkB8XA=="],
+    "@capacitor/file-viewer": ["@capacitor/file-viewer@2.0.0", "", { "dependencies": { "@capacitor/synapse": "^1.0.4" }, "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-QgaujsYfN+27hAZ8iXyT4TOv6oVkrtV/8MYtZIn4Tk7ZqiMEtJrgQGXFB0JfdsUxu54JcrrIeRNFkHgMOsy5uQ=="],
 
-    "@capacitor/filesystem": ["@capacitor/filesystem@8.0.0", "", { "dependencies": { "@capacitor/synapse": "^1.0.4" }, "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-RRGNLW9xEqvVVHGyGlfS4Oy0R3Na+bEefwZElKbex22S9eZr5cg8wc750BPPVwbcv5lf5fJymkY8x8y6UwKPyg=="],
+    "@capacitor/filesystem": ["@capacitor/filesystem@8.1.0", "", { "dependencies": { "@capacitor/synapse": "^1.0.4" }, "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-AfawIxQ8xBmKsEn/vEpgurGQB9+hFXRtwEiCXR+SSS0MkTw4bJrvLGnloZ/PblegYefvnay1q079Yz3PQ6y1dA=="],
 
     "@capacitor/geolocation": ["@capacitor/geolocation@8.0.0", "", { "dependencies": { "@capacitor/synapse": "^1.0.4" }, "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-ci6gOWd5/uruC3bRTxI3xFd9g82WnnJbdQxOH3oZOATNuedlaAw5c5/zXEIMYfRB7t2x1v8/N9gXkND6/nOmVQ=="],
 
     "@capacitor/haptics": ["@capacitor/haptics@8.0.0", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-DY1IUOjke1T4ITl7mFHQIKCaJJyHYAYRYHG9bVApU7PDOZiMVGMp48Yjzdqjya+wv/AHS5mDabSTUmhJ5uDvBA=="],
 
-    "@capacitor/inappbrowser": ["@capacitor/inappbrowser@2.5.1", "", { "peerDependencies": { "@capacitor/core": ">=7.0.0" } }, "sha512-5X5vi4SBlNi/Eo7SHd+5Z43XbMtuPLuavV30HrbIHo42F91nthTBglOOGBQAps1fCuPZ9hrzgIX/WTRQxzWKIQ=="],
+    "@capacitor/inappbrowser": ["@capacitor/inappbrowser@3.0.1", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-FWVOQ9dvrM9AWyaNTPmpMvVIB4kDO0xdp58LpG4iaesSim7+EAysyjwDGRMGgCn7uSQxxDOGLQLY8X7OfirUNA=="],
 
     "@capacitor/ios": ["@capacitor/ios@8.0.2", "", { "peerDependencies": { "@capacitor/core": "^8.0.0" } }, "sha512-7EM7vBxXI3Ku49aYCJcS9su5Y3i6UmXpx7e0y+oQV9PzCnZ6l5B0ACJ+gXAU0bM3q7/f+kGBsOtXMid84rU6MQ=="],
 

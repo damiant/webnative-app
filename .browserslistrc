@@ -1,4 +1,8 @@
 last 2 major versions
 not dead
-Safari >= 15
-iOS >= 15
+Safari >=16.1
+iOS >=16.1
+Chrome >=107
+ChromeAndroid >=60
+Firefox >=106
+Edge >=107
