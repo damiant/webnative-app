@@ -169,6 +169,10 @@ export class UrlService {
         return true;
       }
 
+      if (url.includes('.builder.my')) {
+        return true;
+      }
+
       // Ngrok.io
       if (url.includes('ngrok.io')) {
         return true;
