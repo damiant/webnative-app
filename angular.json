@@ -40,6 +40,11 @@
                 "glob": "error.html",
                 "input": "src",
                 "output": "."
+              },
+              {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "."
               }
             ],
             "styles": [
