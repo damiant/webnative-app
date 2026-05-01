@@ -6,7 +6,7 @@ const config = {
   entryPoints: ['src/auto.ts'],
   bundle: true,
   format: 'iife',
-  outfile: 'dist/webnative-qr.min.js',
+  outfile: 'dist/sdk.js',
   sourcemap: true,
 };
 
@@ -16,5 +16,5 @@ if (isDev) {
   console.log('Watching for changes…');
 } else {
   await esbuild.build({ ...config, minify: true });
-  console.log('✓ Build complete → dist/webnative-qr.min.js');
+  console.log('✓ Build complete → dist/sdk.js');
 }
