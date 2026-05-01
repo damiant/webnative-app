@@ -39,7 +39,14 @@ export function nexusURL(url: string, externalUrl?: string): NamedURL {
 }
 
 function buildQRUrl(options: WebnativeQROptions): string {
-  return options.externalUrl ?? window.location.href;
+  if (options.externalUrl) {
+    return options.externalUrl;
+  }
+  const inIframe = window.self !== window.top;
+  if (inIframe && document.referrer) {
+    return document.referrer;
+  }
+  return window.location.href;
 }
 
 // ---------------------------------------------------------------------------
