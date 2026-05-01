@@ -39,19 +39,7 @@ export function nexusURL(url: string, externalUrl?: string): NamedURL {
 }
 
 function buildQRUrl(options: WebnativeQROptions): string {
-  // Add webnative=qr to the current page URL
-  let baseUrl: string;
-  try {
-    const u = new URL(window.location.href);
-    u.searchParams.set('webnative', 'qr');
-    baseUrl = u.toString();
-  } catch {
-    const href = window.location.href;
-    baseUrl = href + (href.includes('?') ? '&' : '?') + 'webnative=qr';
-  }
-
-  const { url } = nexusURL(baseUrl, options.externalUrl);
-  return url;
+  return options.externalUrl ?? window.location.href;
 }
 
 // ---------------------------------------------------------------------------

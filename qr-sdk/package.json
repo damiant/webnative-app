@@ -2,10 +2,10 @@
   "name": "webnative-qr",
   "version": "1.0.0",
   "description": "Inject a FAB QR code button that opens the current URL in the Webnative App",
-  "main": "dist/webnative-qr.min.js",
+  "main": "dist/sdk.js",
   "files": [
-    "dist/webnative-qr.min.js",
-    "dist/webnative-qr.min.js.map"
+    "dist/sdk.js",
+    "dist/sdk.js.map"
   ],
   "scripts": {
     "clean": "rm -rf dist",
