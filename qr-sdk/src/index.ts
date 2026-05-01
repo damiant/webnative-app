@@ -187,6 +187,11 @@ export function init(options: WebnativeQROptions = {}): () => void {
     return () => { /* noop in builder.io */ };
   }
 
+  // Do not show on iOS or Android devices
+  if (/android|iphone|ipad|ipod/i.test(navigator.userAgent)) {
+    return () => { /* noop on mobile devices */ };
+  }
+
   // Guard against double-initialisation
   if (document.getElementById('webnative-qr-fab')) {
     return () => { /* already initialised */ };
