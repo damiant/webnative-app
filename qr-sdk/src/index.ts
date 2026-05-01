@@ -182,6 +182,11 @@ export function init(options: WebnativeQROptions = {}): () => void {
     return () => { /* noop in non-browser environments */ };
   }
 
+  // Do not show in builder.io editor
+  if (document.referrer.includes('builder.io')) {
+    return () => { /* noop in builder.io */ };
+  }
+
   // Guard against double-initialisation
   if (document.getElementById('webnative-qr-fab')) {
     return () => { /* already initialised */ };
