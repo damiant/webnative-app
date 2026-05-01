@@ -1,4 +1,8 @@
 # Changelog
+## 1.37
+
+- Upgrade dependencies
+
 ## 1.34
 
 - Add @capacitor/file-viewer plugin

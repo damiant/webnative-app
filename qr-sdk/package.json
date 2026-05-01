@@ -1,0 +1,32 @@
+{
+  "name": "webnative-qr",
+  "version": "1.0.0",
+  "description": "Inject a FAB QR code button that opens the current URL in the Webnative App",
+  "main": "dist/webnative-qr.min.js",
+  "files": [
+    "dist/webnative-qr.min.js",
+    "dist/webnative-qr.min.js.map"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "bun run clean && bun run build.mjs",
+    "dev": "bun run build.mjs --watch",
+    "prepublishOnly": "bun run build"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.0"
+  },
+  "keywords": [
+    "qr",
+    "qrcode",
+    "webnative",
+    "fab",
+    "floating-action-button"
+  ],
+  "license": "MIT"
+}
