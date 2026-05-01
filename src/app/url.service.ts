@@ -169,7 +169,7 @@ export class UrlService {
         return true;
       }
 
-      if (url.includes('.builder.my')) {
+      if (url.includes('.builder.my') || url.includes('.builder.codes') || url.includes('.builderio.dev') || url.includes('.builderio.xyz')) {
         return true;
       }
 
