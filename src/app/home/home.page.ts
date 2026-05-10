@@ -165,7 +165,7 @@ export class HomePage implements OnInit {
       return;
     }
     const urlValue = url || this.urlForm.get('url')?.value || '';
-    const secure = urlValue.includes('https://');
+    const secure = urlValue.trim().toLowerCase().startsWith('https://');
     const fullUrl = this.historyService.toFullUrl(urlValue, secure);
     this.urlService.setRemoteURL(fullUrl);
     if (!this.historyService.isValidUrl(fullUrl)) {
