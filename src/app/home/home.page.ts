@@ -41,7 +41,7 @@ interface HomeModel {
 }
 
 @Component({
-    imports: [
+  imports: [
     ShortcutComponent,
     ReactiveFormsModule,
     IonContent,
@@ -54,10 +54,10 @@ interface HomeModel {
     IonFabButton,
     IonIcon,
     IonSpinner
-],
-    selector: 'app-home',
-    templateUrl: 'home.page.html',
-    styleUrls: ['home.page.scss']
+  ],
+  selector: 'app-home',
+  templateUrl: 'home.page.html',
+  styleUrls: ['home.page.scss']
 })
 export class HomePage implements OnInit {
   private router = inject(Router);
@@ -165,7 +165,8 @@ export class HomePage implements OnInit {
       return;
     }
     const urlValue = url || this.urlForm.get('url')?.value || '';
-    const fullUrl = this.historyService.toFullUrl(urlValue);
+    const secure = urlValue.includes('https://');
+    const fullUrl = this.historyService.toFullUrl(urlValue, secure);
     this.urlService.setRemoteURL(fullUrl);
     if (!this.historyService.isValidUrl(fullUrl)) {
       console.log('Invalid URL:', fullUrl);

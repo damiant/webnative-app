@@ -1,4 +1,8 @@
 # Changelog
+## 1.38
+
+- Allow secure (https) ip address based manual entries 
+
 ## 1.37
 
 - Upgrade dependencies
