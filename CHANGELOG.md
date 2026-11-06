@@ -1,4 +1,9 @@
 # Changelog
+## 1.38
+
+- @capacitor-community/sqlite added, dependencies updated
+- Android target SDK set to 36 (Google Play requirement)
+
 ## 1.37
 
 - Upgrade dependencies
