@@ -3,82 +3,92 @@ PODS:
     - CapacitorCordova
   - CapacitorActionSheet (8.1.1):
     - Capacitor
-  - CapacitorApp (8.1.0):
+  - CapacitorApp (8.1.2):
     - Capacitor
-  - CapacitorBarcodeScanner (3.0.2):
+  - CapacitorBarcodeScanner (3.1.3):
     - Capacitor
-    - OSBarcodeLib (= 2.0.1)
-  - CapacitorBrowser (8.0.3):
+    - OSBarcodeLib (= 3.0.0)
+  - CapacitorBrowser (8.0.5):
     - Capacitor
-  - CapacitorCamera (8.2.0):
+  - CapacitorCamera (8.2.6):
     - Capacitor
-    - IONCameraLib (~> 1.0.4)
+    - IONCameraLib (~> 2.0.0)
   - CapacitorClipboard (8.0.1):
     - Capacitor
   - CapacitorCommunityAppleSignIn (7.1.0):
     - Capacitor
-  - CapacitorCommunityBluetoothLe (8.1.3):
+  - CapacitorCommunityBluetoothLe (8.3.0):
     - Capacitor
   - CapacitorCommunityCameraPreview (8.0.1):
     - Capacitor
   - CapacitorCommunityKeepAwake (8.0.1):
     - Capacitor
+  - CapacitorCommunitySqlite (8.1.1):
+    - Capacitor
+    - SQLCipher
+    - ZIPFoundation
   - CapacitorCordova (8.3.1)
-  - CapacitorDevice (8.0.2):
+  - CapacitorDevice (8.0.3):
     - Capacitor
   - CapacitorDialog (8.0.1):
     - Capacitor
-  - CapacitorFilesystem (8.1.2):
+  - CapacitorFilesystem (8.1.5):
     - Capacitor
-    - IONFilesystemLib (~> 1.1.1)
-  - CapacitorFileViewer (2.0.1):
+    - IONFilesystemLib (= 2.0.1)
+  - CapacitorFileViewer (2.0.4):
     - Capacitor
-    - IONFileViewerLib (~> 1.0.3)
-  - CapacitorGeolocation (8.2.0):
+    - IONFileViewerLib (~> 2.0.0)
+  - CapacitorGeolocation (8.2.4):
     - Capacitor
-    - IONGeolocationLib (= 2.1.0)
+    - IONGeolocationLib (= 3.0.0)
   - CapacitorHaptics (8.0.2):
     - Capacitor
-  - CapacitorInappbrowser (3.0.3):
+  - CapacitorInappbrowser (4.1.0):
     - Capacitor
-    - OSInAppBrowserLib (~> 2.3.2)
-  - CapacitorKeyboard (8.0.3):
+    - OSInAppBrowserLib (~> 3.0.0)
+  - CapacitorKeyboard (8.0.6):
     - Capacitor
-  - CapacitorLocalNotifications (8.0.2):
+  - CapacitorLocalNotifications (8.3.1):
     - Capacitor
   - CapacitorNetwork (8.0.1):
     - Capacitor
   - CapacitorPreferences (8.0.1):
     - Capacitor
-  - CapacitorScreenOrientation (8.0.1):
+  - CapacitorScreenOrientation (8.0.2):
     - Capacitor
   - CapacitorScreenReader (8.0.1):
     - Capacitor
-  - CapacitorShare (8.0.1):
+  - CapacitorShare (8.0.3):
     - Capacitor
-  - CapacitorSplashScreen (8.0.1):
+  - CapacitorSplashScreen (8.0.2):
     - Capacitor
-  - CapacitorStatusBar (8.0.2):
+  - CapacitorStatusBar (8.0.4):
     - Capacitor
   - CapacitorTextZoom (8.0.1):
     - Capacitor
   - CapacitorToast (8.0.1):
     - Capacitor
-  - CapawesomeCapacitorFilePicker (8.0.2):
+  - CapawesomeCapacitorFilePicker (8.1.1):
     - Capacitor
   - CordovaPlugins (8.3.1):
     - CapacitorCordova
   - CordovaPluginsResources (0.0.105)
-  - IONCameraLib (1.0.4)
-  - IONFilesystemLib (1.1.2)
-  - IONFileViewerLib (1.0.3)
-  - IONGeolocationLib (2.1.0)
-  - OSBarcodeLib (2.0.1)
-  - OSInAppBrowserLib (2.3.2)
+  - IONCameraLib (2.0.0)
+  - IONFilesystemLib (2.0.1)
+  - IONFileViewerLib (2.0.0)
+  - IONGeolocationLib (3.0.0)
+  - OSBarcodeLib (3.0.0)
+  - OSInAppBrowserLib (3.0.0)
   - Sentry/HybridSDK (8.56.2)
   - SentryCapacitor (2.4.1):
     - Capacitor
     - Sentry/HybridSDK (= 8.56.2)
+  - SQLCipher (4.10.0):
+    - SQLCipher/standard (= 4.10.0)
+  - SQLCipher/common (4.10.0)
+  - SQLCipher/standard (4.10.0):
+    - SQLCipher/common
+  - ZIPFoundation (0.9.20)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
@@ -92,6 +102,7 @@ DEPENDENCIES:
   - "CapacitorCommunityBluetoothLe (from `../../node_modules/@capacitor-community/bluetooth-le`)"
   - "CapacitorCommunityCameraPreview (from `../../node_modules/@capacitor-community/camera-preview`)"
   - "CapacitorCommunityKeepAwake (from `../../node_modules/@capacitor-community/keep-awake`)"
+  - "CapacitorCommunitySqlite (from `../../node_modules/@capacitor-community/sqlite`)"
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
   - "CapacitorDialog (from `../../node_modules/@capacitor/dialog`)"
@@ -125,6 +136,8 @@ SPEC REPOS:
     - OSBarcodeLib
     - OSInAppBrowserLib
     - Sentry
+    - SQLCipher
+    - ZIPFoundation
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -149,6 +162,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor-community/camera-preview"
   CapacitorCommunityKeepAwake:
     :path: "../../node_modules/@capacitor-community/keep-awake"
+  CapacitorCommunitySqlite:
+    :path: "../../node_modules/@capacitor-community/sqlite"
   CapacitorCordova:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorDevice:
@@ -199,46 +214,49 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Capacitor: 46dbaa89c1d1cd121b9fc2dc839c1f39cc49e326
   CapacitorActionSheet: c3394c32eb29990e73e9c6c5677e3b31eb46ad3f
-  CapacitorApp: 449ffe26375e96f8aaaee625ac6e01e5c57c8650
-  CapacitorBarcodeScanner: 421aa419ac63eeb18c7cb94ce280fa22d34e8b0b
-  CapacitorBrowser: c987c73d09d8bd3b5ec13f06338b1e14d5d2be69
-  CapacitorCamera: 8f6acf83664118321111e76acef86390211ccb08
+  CapacitorApp: 7b7e43debe505bc61beedb83796aa1368c86078b
+  CapacitorBarcodeScanner: 90719f7114ec272ff28f2b3795556808de59246a
+  CapacitorBrowser: f94f92654e92a97981bf346b3681af76527dace0
+  CapacitorCamera: 09e51f52c079eaf731a5528a1c3455c074ccc24c
   CapacitorClipboard: c75fdaa6e622111119f35e7914ecfc67b05efecb
   CapacitorCommunityAppleSignIn: 271cb2860576fd2961508bbfa7a82117d93eadca
-  CapacitorCommunityBluetoothLe: ab4b04474c7c13315cd591dee0995f1adce73c98
+  CapacitorCommunityBluetoothLe: f9c76baa5338d206b7418c48d945d93d47800af3
   CapacitorCommunityCameraPreview: 38b73c0135eae2c8bc7652745b3820b035737313
   CapacitorCommunityKeepAwake: d41922812644562e94a79acaf7f41e6d9413af8c
+  CapacitorCommunitySqlite: 785553c54e52da62d058238d4571db5692c022c4
   CapacitorCordova: 9010447fe25e869705fcf525e5f490facde87608
-  CapacitorDevice: 14cba6f88d1c3074cbf825fea977c8c526453ff8
+  CapacitorDevice: 708e742b60a61572cd593e44c809592e8f31da14
   CapacitorDialog: 854c5dac405081cae697c177ca43bcaa95ae67bf
-  CapacitorFilesystem: 2db285a1ac6e475cc27cae2e1bea999000f9e2be
-  CapacitorFileViewer: 29c87294cf8741a469dfd8979d1a0187fec54b58
-  CapacitorGeolocation: b36f6287bfc9f2eefa04dc900496f2c8ae666136
+  CapacitorFilesystem: e3bc7123acb1554df1b7b099fa5847064b9e1bd4
+  CapacitorFileViewer: 1a7adfc93a3d9f8da9dfb3755a9607a66bfed102
+  CapacitorGeolocation: 9b8fbd3156fc5d4d24df150760e2b8e39a0bf214
   CapacitorHaptics: 296f771ecd89c7a1bd92a7b6826a7d268e2e70f5
-  CapacitorInappbrowser: 77fd27ec2bbd2ea591a9a3ccfc7b27fe9eeb816c
-  CapacitorKeyboard: 31c8285d92c9d1410071d52449f16d2c6673b6f4
-  CapacitorLocalNotifications: 4db83a7f6bdd2f30dcedf5c6f92c415065467a24
+  CapacitorInappbrowser: 35aea5f0f391f609539f9708df95d1487a5db4f6
+  CapacitorKeyboard: f9e85e685082e9f63404de15db4a4291448b0912
+  CapacitorLocalNotifications: e0747a329ddde3074d52dc74a003688af90e42be
   CapacitorNetwork: 8812ce60d11fb63d8f2e4ba51a49b2e59892ebe2
   CapacitorPreferences: cca2021f386efb75947c850334447d9ff22b14f1
-  CapacitorScreenOrientation: 6c3c84223ea1dd44aaa7184e2b416dd1192270d0
+  CapacitorScreenOrientation: 0ccb98cbbfbb1dce509da837a3e35848128417ce
   CapacitorScreenReader: 48e053fe6ecb0ecf5596d7e5b7e41951ab5e30b3
-  CapacitorShare: 0c58305114538568059bfc07111f22dcb9cb2a82
-  CapacitorSplashScreen: 4b46c72298db552b3c57ce021ef028b6dc7f1fa7
-  CapacitorStatusBar: 01d5763b4ed720de5ce2edbc938de6a98f4c8f32
+  CapacitorShare: 5b5e53347556bee89ae6163ed20b5b3c25fe75f1
+  CapacitorSplashScreen: 7bf61c2001557ff9e195e601c6b87344480d3c65
+  CapacitorStatusBar: ff844df1f126da6c4fbc4028272425fa3a91e7e3
   CapacitorTextZoom: b3c80b09abef831245bc3434b1c03aa898ad4762
   CapacitorToast: 408036fbd702120d3adde3980b740f3c0fb60c9e
-  CapawesomeCapacitorFilePicker: eb29fb54c59614fede51e0e0fe25070dda9d024c
+  CapawesomeCapacitorFilePicker: 7ae3700f2fee0d0a3ab54dcd0e74de6d914d7195
   CordovaPlugins: 2ccec11c4b72a73b52edd33f7e9db2067ea2a73d
   CordovaPluginsResources: da93847212bf7b16ba770e4d6c3e7dba820174c7
-  IONCameraLib: f2349804460bd9e3f892e42109b8d996ab3fa19d
-  IONFilesystemLib: 21a63377696b2d8fab5632ecfb7d2ac67bddb68a
-  IONFileViewerLib: 574758ebcaa4b1543669b1c9708f1970e1172b29
-  IONGeolocationLib: 6a7b6f76063fb1b01cfb14fae7d0f526e3c9b271
-  OSBarcodeLib: 57987d2eb1f916f701f4554e20e349b3cb83f023
-  OSInAppBrowserLib: c21c8fa3d886654d2f553b9f1bded9d27a0530c7
+  IONCameraLib: 729cae576e1a952602ce750a9790b6dc7d7e2e95
+  IONFilesystemLib: 306469e4c563f61de82d7bca2bbfed9e64d1b2d2
+  IONFileViewerLib: 665aa5918754112a5c1bba18860aa78c830c961e
+  IONGeolocationLib: a125d4f91ea353652026e5da6e5bee0414a57d37
+  OSBarcodeLib: 27f353bc1292cb4cb5608914a531582f73a0bfdd
+  OSInAppBrowserLib: 172e82a614f4b4402e367935ff71a5427ec4234e
   Sentry: b53951377b78e21a734f5dc8318e333dbfc682d7
   SentryCapacitor: 84549a1440a7f58a336ed3175db0f067d571cd5b
+  SQLCipher: eb79c64049cb002b4e9fcb30edb7979bf4706dfc
+  ZIPFoundation: dfd3d681c4053ff7e2f7350bc4e53b5dba3f5351
 
-PODFILE CHECKSUM: 113aa0bca9d8e4dabdc51c0143b3daadd4461924
+PODFILE CHECKSUM: ad453dca2c409a74d85d7c50941a1cb8e33d52ba
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.17.0

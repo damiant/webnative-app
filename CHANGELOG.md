@@ -1,4 +1,8 @@
 # Changelog
+## 1.38
+
+- @capacitor-community/sqlite added, dependencies updated
+
 ## 1.37
 
 - Upgrade dependencies
